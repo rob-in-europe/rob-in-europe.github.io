@@ -1,5 +1,5 @@
 # The site title, used for pages with a title and in RSS feeds.
-title: "Site Title"
+title: "Rob (is no longer) in Europe"
 # The (absolute) URL at which the site can be found (e.g., used in RSS feeds).
 url: ""
 # A brief description of the site (e.g., used in RSS feeds).
@@ -28,7 +28,7 @@ url_js: "/assets/js"
 url_blog: ""
 # Set to true if blog posts are listed (i.e., recent posts, posts by date,
 # and posts by tag) on a per-category basis.
-listed_by_cat: false
+listed_by_cat: true
 
 # The URL for each blog post, as per http://jekyllrb.com/docs/permalinks/.
 permalink: /:categories/:year/:month/:day/:title
@@ -36,6 +36,10 @@ permalink: /:categories/:year/:month/:day/:title
 # Links that appear in the navigation bar.
 navlinks:
   - Home: "/"
+  - Travel: "/travel"
+  - Recipes: "/recipes"
+  - French: "/french"
+  - Misc: "/misc"
 
 # Whether to display previous post and next post links for each post.
 show_prev_next: true

@@ -1,15 +1,22 @@
 <div class="rcol">
 <p class="colname">
-  Column
+  Other blogs
 </p>
 <p class="colitem">
-  <a href="http://www.example.com/">Link #1</a><br/>
-  <a href="http://www.example.com/">Link #2</a>
+  <a href="http://paulfraser.livejournal.com/">Dr Fraser</a><br/>
+  <a href="http://docmatrix.blogspot.com/">Mr Pollock</a><br/>
+  &nbsp;
 </p>
 </div>
 <div class="heading">
 <p>
-This is the default blurb for the main page
-(<emph>_includes/blurb_home</emph>).
+After submitting my PhD thesis I wandered around Europe for six months (way
+back in 2008&ndash;2009).
+I spent two years working in Paris and learning French (2010&ndash;2012), and
+now I'm living in Durham, North Carolina.
+</p>
+<p>
+And I'm way behind in writing about <a href="{{ site.baseurl }}/travel">my
+travels</a> and other significant life events.
 </p>
 </div>
