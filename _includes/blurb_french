@@ -1,3 +1,11 @@
+<div class="rcol">
+<p class="colname">
+  Notes
+</p>
+<p class="colitem">
+  <a href="{{ site.baseurl }}/french/grammar">Grammar</a><br/>
+</p>
+</div>
 <div class="heading">
 <p>
 <emph>One man strives to overcome the Gallic tongue...<br/>
@@ -13,4 +21,3 @@ Trouvez mes erreurs et vous pourriez <strong>gagner</strong> ma gratitude
 éternelle!
 </p>
 </div>
-
