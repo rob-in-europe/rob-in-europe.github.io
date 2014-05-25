@@ -1,6 +1,7 @@
 ---
 title: Negation
 layout: site
+navid: French
 ---
 
 ## Overview

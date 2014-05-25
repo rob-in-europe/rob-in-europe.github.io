@@ -1,6 +1,7 @@
 ---
 title: Learn French
 layout: site
+navid: French
 ---
 
 ## Writing

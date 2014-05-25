@@ -1,6 +1,7 @@
 ---
 title: Futur Proche
 layout: site
+navid: French
 ---
 
 ## Overview
