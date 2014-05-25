@@ -21,4 +21,4 @@ managed to register at the AHM08 conference, after some brief confusion where
 the staff repeatedly asked me if I was sure I'd registered.
 Mishaps have been avoided thus far.
 I have posted
-[some photos](https://picasaweb.google.com/117685806402772845675/Brittany092011?authuser=0&authkey=Gv1sRgCLH4hrGQod7xNQ&feat=directlink).
+[some photos](https://picasaweb.google.com/117685806402772845675/Brittany092011?authkey=Gv1sRgCLH4hrGQod7xNQ).

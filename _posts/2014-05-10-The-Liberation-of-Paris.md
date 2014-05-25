@@ -4,7 +4,7 @@ title: The Liberation of Paris
 tags: ['Paris']
 category: travel
 galleries:
-    Wedding: 'https://picasaweb.google.com/117685806402772845675/Wedding082012?authuser=0&authkey=Gv1sRgCOjLuOfokomN1wE&feat=directlink'
+    Wedding: 'https://picasaweb.google.com/117685806402772845675/Wedding082012?authkey=Gv1sRgCOjLuOfokomN1wE'
 ---
 
 On August 25, 1944, the German garrison surrendered the city of Paris to the
