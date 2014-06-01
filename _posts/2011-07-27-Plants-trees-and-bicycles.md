@@ -3,6 +3,18 @@ layout: post
 title: Plants, trees and bicycles
 category: travel
 tags: ['Paris']
+comments:
+- author: Paul Fraser
+  date: August 4, 2011
+  text: |
+    I hear our boy cried again. I wonder how he doesn't crash into a tree
+    every race, blinded by wimpy weeping as he is.
+- author: Rob
+  date: August 5, 2011
+  text: |
+    I don't know, I think I'd be crying if I put my body through that kind of
+    abuse for three weeks. Oh, who am I kidding? I wouldn't survive the first
+    day.
 ---
 
 [![]({{ site.baseurl }}{{ site.url_img }}/2011-07-27_img1.jpg)](

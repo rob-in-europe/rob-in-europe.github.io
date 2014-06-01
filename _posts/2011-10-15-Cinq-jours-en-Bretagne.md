@@ -5,6 +5,14 @@ tags: ['Paris']
 category: travel
 galleries:
     Brittany: 'https://picasaweb.google.com/117685806402772845675/Brittany092011?authkey=Gv1sRgCLH4hrGQod7xNQ'
+comments:
+- author: Paul Fraser
+  date: September 30, 2013
+  text: |
+    I just thought I'd give you the heads up that I'm about to write about
+    your wedding before you do.</p>
+
+    <p>And also that in 15 days, this post will be 2 years old.
 ---
 
 Brittany is one of six *Celtic nations*.

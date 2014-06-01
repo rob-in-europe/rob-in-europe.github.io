@@ -5,6 +5,21 @@ category: travel
 tags: ['Europe 08/09']
 galleries:
     Christmas in the Vosges: 'http://picasaweb.google.com/117685806402772845675/Europe20082009NancyAndTheVosges?authkey=Gv1sRgCMf1mZKh3NPPzwE'
+comments:
+- author: Paul Fraser
+  date: January 25, 2009
+  text: |
+    Heh. Snail boy.</p>
+
+    <p>My mother has eaten escargot twice in her life, unfortunately both
+    times on early dates with Father. An enduring memory of childhood is his
+    repeated and disgusted insistence that Mother eats snails.</p>
+
+    <p>I guess the take-home message is that you can do gross shit on dates
+    and they'll still marry you.</p>
+
+    <p>Anyhoo, I'm keen to hear of Switzerland. If'n you want, I can prolly
+    hook you up with a tour of the LHC.
 ---
 
 From Lyon, I caught a train to Nancy where I would again meet Claude and

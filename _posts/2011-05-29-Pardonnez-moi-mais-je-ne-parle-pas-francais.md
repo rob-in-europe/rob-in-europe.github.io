@@ -3,6 +3,19 @@ layout: post
 title: Pardonnez moi, mais je ne parle pas français!
 category: travel
 tags: ['Paris']
+comments:
+- author: Ilya
+  date: June 8, 2011
+  text: |
+    Oh dear... the whole thing in French?! You're crazy! Or fluent. Or both.
+    So are there slides or something from the talk?<br/>
+    And where are the photos of the damned DeLorean?
+- author: Paul Fraser
+  date: July 5, 2011
+  text: |
+    I now know of 2 countries that hold their conferences in languages other
+    than English - France and Uzbekistan. In the latter case, there is no real
+    point for English. The former, well...
 ---
 
 May 16, 2011, marks a milestone both personal and professional.

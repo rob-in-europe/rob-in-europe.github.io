@@ -5,6 +5,10 @@ category: travel
 tags: ['Europe 08/09']
 galleries:
     San Sebastian: 'http://picasaweb.google.com/117685806402772845675/Europe20082009SanSebastian?authkey=Gv1sRgCPahq7HQpMfNTg'
+comments:
+- author: Paul Fraser
+  date: May 25, 2010
+  text: Rob! More adventures please!
 ---
 
 First things first, I apologise for taking so long to write this next

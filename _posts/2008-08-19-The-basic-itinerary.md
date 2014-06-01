@@ -3,6 +3,10 @@ layout: post
 title: The basic itinerary
 category: travel
 tags: ['Europe 08/09']
+comments:
+- author: Paul Fraser
+  date: September 1, 2008
+  text:  Eh! You didn't tell me about this blog!
 ---
 
 I'm submitting my PhD thesis in less than three weeks, and flying to Edinburgh

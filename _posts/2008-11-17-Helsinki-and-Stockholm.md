@@ -7,6 +7,13 @@ galleries:
     Helsinki: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Helsinki?authkey=Gv1sRgCIPpwoyb7rK-Iw'
     Stockholm: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Stockholm?authkey=Gv1sRgCMnP3oXMutmj-AE'
     Crazy Swedish book: 'http://picasaweb.google.com/117685806402772845675/Europe20082009CrazySwedishBook?authkey=Gv1sRgCLOg7LmL_JSpIQ'
+comments:
+- author: Tatianna
+  date: November 22, 2008
+  text: Thank you ;)<br/>beijos
+- author: Juris
+  date: December 27, 2008
+  text: PALDIES!ROB! :) - Juris-
 ---
 
 (I apologise to everybody for taking so long to write this)

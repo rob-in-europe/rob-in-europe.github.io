@@ -5,6 +5,21 @@ category: travel
 tags: ['Europe 08/09']
 galleries:
     Chefchaouen: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Chefchaouen?authkey=Gv1sRgCNTEqoiy18GiAg'
+comments:
+- author: Paul Fraser
+  date: November 15, 2010
+  text: |
+    That sounds most interesting! Especially that the town was settled to
+    stave off Portuguese attacks; the Portuguese kicked the Moors out of their
+    part of Iberia before the Spanish did, and it's not really surprising they
+    should want to head further south for retribution. The Spanish found it
+    easier to come here...</p>
+
+    <p>I'd believe the blue walls would stave of mozzies. I'm here with no fly
+    wire, and the little bastards love dark surfaces to hide on.</p>
+
+    <p>Morocco has just been added to the list. I'll hit you up for ideas when
+    I get there one day.
 ---
 
 Awaking to the crisp morning air, Eddie and I look across the rooftops of
