@@ -206,7 +206,7 @@ As the evening wound down, *digestifs* were offered; a small glass of a strong
 spirit (so much more poetic in French; *l'eau de vie* translates literally as
 *water of life*) is said to aid digestion.
 I had foolishly told several friends to try *armagnac*, a French spirit
-similar to cognac, to which I had become quite fond; thanks to this
+similar to cognac, of which I had become quite fond; thanks to this
 recommendation, when it came time to nominate my drink of choice I was told
 that all of the armagnac had been served.
 With friends like these ...
