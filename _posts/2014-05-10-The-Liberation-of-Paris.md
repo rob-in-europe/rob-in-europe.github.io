@@ -5,6 +5,18 @@ tags: ['Paris']
 category: travel
 galleries:
     Wedding: 'https://picasaweb.google.com/117685806402772845675/Wedding082012?authkey=Gv1sRgCOjLuOfokomN1wE'
+comments:
+- author: Paul Fraser
+  date: April 24, 2015
+  text: |
+    You have a new blog post, that's a year old before I saw it! Yay!</p>
+
+    <p>What are these geeky concerns of which you speak? How does one comment
+    on this new blog you wrote?
+- author: Rob
+  date: April 24, 2015
+  text: |
+    For now, email me and I will add the comment myself.
 ---
 
 On August 25, 1944, the German garrison surrendered the city of Paris to the
