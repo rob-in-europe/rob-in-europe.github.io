@@ -33,6 +33,9 @@ listed_by_cat: true
 # The URL for each blog post, as per http://jekyllrb.com/docs/permalinks/.
 permalink: /:categories/:year/:month/:day/:title
 
+# The time zone for site generation and identifying future posts.
+timezone: "Australia/Melbourne"
+
 # Links that appear in the navigation bar.
 navlinks:
   - Home: "/"
