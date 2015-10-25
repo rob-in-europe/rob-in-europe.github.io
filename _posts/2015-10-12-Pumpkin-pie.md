@@ -3,6 +3,15 @@ layout: post
 title: Pumpkin pie
 category: recipes
 tags: ['Dessert']
+comments:
+- author: Rob
+  date: October 25, 2015
+  text: |
+    "Halloween pumpkins" have appeared in our local supermarket, as has a
+    "Mini Jack" variety the size of a navel orange.
+    Apparently this
+    <a href="http://www.ruralweekly.com.au/news/trend-gives-boost/2427735/">
+    isn't</a> the first time.
 ---
 
 The [OED](http://www.oxforddictionaries.com/definition/english/pie) defines
@@ -30,9 +39,9 @@ decided to make a pumpkin pie *from scratch*.
 One of the most frequent mistakes is using a pumpkin of the type commonly used
 for carving Halloween decorations.
 I'm not sure I've ever seen this variety of pumpkin for sale in a Melbourne
-grocery store, so this mistake was easily avoided; we used *Kent* pumpkin
-(also known as *Japanese* pumpkin or *kobacha*), which is sweeter than
-butternut pumpkin.
+grocery store<sup>[1](#comment1)</sup>, so this mistake was easily avoided; we
+used *Kent* pumpkin (also known as *Japanese* pumpkin or *kobacha*), which is
+sweeter than butternut pumpkin.
 Other common problems include the pumpkin purée being too watery, and not
 having the right combination of spices to taste like a *real* pumpkin pie.
 
