@@ -41,11 +41,11 @@ layout: site
 <div>
 {{ content }}
 {% if page.comments %}
-  {% if page.comments.size == 1 %}<h3 class="comments">1 comment</h3>
-  {% else %}<h3 class="comments">{{ page.comments.size }} comments</h3>
-  {% endif %}
+  {% capture ctitle %}{% if page.comments.size == 1 %}1 comment
+  {% else %}{{ page.comments.size }} comments{% endif %}{% endcapture %}
+  <h3 class="comments" id="comments">{{ ctitle }}</h3>
   {% for comment in page.comments %}
-    <div class="comment"><p>{{ comment.text }}<br/>
+    <div class="comment" id="comment{{ forloop.index }}"><p>{{ comment.text }}<br/>
     <span class="author">{{ comment.author }}</span>
     <span class="date">{{ comment.date }}</span></p>
     </div>
