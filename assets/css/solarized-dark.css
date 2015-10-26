@@ -6,7 +6,8 @@ h1 { color: #b58900; }
 h2 { color: #859900; }
 h3 { color: #b58900; }
 .colname { color: #2aa198; border-bottom: 2px solid #2aa198; }
-.colitem a { color: #d33682; }
+.colitem a, sup a { color: #d33682; }
+sup a { font-weight: bold; border: 1px dashed #d33682; text-decoration: none; }
 td.showyes { background-color: lightgreen; }
 td.showno { background-color: pink; }
 strong, span.author { color: #b58900; }
@@ -16,6 +17,11 @@ ul.navbar li a:hover { color: #cb4b16; }
 ul.navbar li.navloc a { color: #2aa198; }
 span.frdel { color: #859900; }
 span.fradd { color: #dc322f; }
+.comment:target {
+    background-color: #eee8d5;
+    border-radius: 1em;
+    padding: 0.25em 1.25em;
+}
 
 /* Colours specific to the dark theme. */
 html { background-color: #002b36; color: #839496; }
