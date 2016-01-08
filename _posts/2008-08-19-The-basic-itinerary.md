@@ -38,7 +38,7 @@ while I'm away. Here's the current plan:
 | [Slovenia]({{ site.baseurl }}{% post_url 2009-02-14-Lake-Bled %}) | Jan 17 | Jan 20 |
 | [Austria]({{ site.baseurl }}{% post_url 2009-02-14-Vienna %}) | Jan 20 | Jan 22 |
 | [Spain]({{ site.baseurl }}{% post_url 2009-02-20-Barcelona-and-Montserrat %}) ([more]({{ site.baseurl }}{% post_url 2010-03-29-San-Sebastian %}), [more]({{ site.baseurl }}{% post_url 2010-06-01-Madrid %}), [more]({{ site.baseurl }}{% post_url 2010-06-28-Granada %}), [more]({{ site.baseurl }}{% post_url 2010-08-22-Ceuta %})) | Jan 22 | Feb 2, Feb 18 |
-| [Morocco]({{ site.baseurl }}{% post_url 2010-11-14-Chefchaouen %}) | Feb 3 | Feb 17 |
+| [Morocco]({{ site.baseurl }}{% post_url 2010-11-14-Chefchaouen %}) ([more]({{ site.baseurl }}{% post_url 2016-01-08-Fes %})) | Feb 3 | Feb 17 |
 | Portugal | Feb 19 | Feb 23 |
 | London | Feb 24 | Mar 1 |
 
