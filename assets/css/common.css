@@ -130,7 +130,7 @@ ul.navbar li a {
     text-decoration: none;
 }
 ul li {
-    background-image: url("../images/influenza.png");
+    background-image: url("../images/bullet.png");
     background-repeat: no-repeat;
     background-position: 0px 0px;
     background-size: 1.2em 1.2em;
@@ -138,24 +138,6 @@ ul li {
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-bottom: 1em;
-}
-ul.pubs li.epi {
-    background-image: url("../images/influenza.png");
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: auto;
-    margin-left: -48px;
-    padding-left: 48px;
-    padding-right: 0px;
-}
-ul.pubs li.renal {
-    background-image: url("../images/kidney_trans.png");
-    background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: auto;
-    margin-left: -48px;
-    padding-left: 48px;
-    padding-right: 0px;
 }
 
 span.chart, span.chart svg { display: block; margin: 0 auto; }
