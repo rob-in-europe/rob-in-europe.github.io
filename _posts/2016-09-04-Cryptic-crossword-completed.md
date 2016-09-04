@@ -309,7 +309,8 @@ these crosswords.
   [see note](#notes)
 
 14.
-: M<span title="Answer">ass is i</span>ncreasingly diminishing <span title="Definition">Francis' origins</span> (6)
+: M<span title="Answer">ass is i</span>ncreasingly diminishing
+  <span title="Definition">Francis' origins</span> (6)
 
 17.
 : <span title="Definition">Holds forth</span> parts to
@@ -322,7 +323,8 @@ these crosswords.
   <span title="Synonym ('st')">street</span> (8)
 
 22.
-: Share <span title="Synonym ('all')">everything</span>
+: <span title="Definition">Share</span>
+  <span title="Synonym ('all')">everything</span>
   <span title="Synonym ('me')">yours truly</span>
   <span title="Modifier (ot-me-nt)">slotted between</span>
   <span title="Synonym ('ot' and 'nt')">parts of the bible</span> (9)
