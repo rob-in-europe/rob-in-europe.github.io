@@ -14,7 +14,7 @@
   {{ site.title }}
 {% endif %}
 {% endcapture %}
-{% capture theme %}{% if page.theme %}{{ page.theme }}{% else %}{{ site.theme }}{% endif %}{% endcapture %}
+{% capture css_theme %}{% if page.css_theme %}{{ page.css_theme }}{% else %}{{ site.css_theme }}{% endif %}{% endcapture %}
     <title>{{ title }}</title>
     <link rel="stylesheet" type="text/css"
 href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Raleway" />
@@ -25,7 +25,7 @@ href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Raleway" />
     <link rel="stylesheet" type="text/css" media="not all and (min-width: 60em)"
           href="{{ site.baseurl }}{{ site.url_css }}/screen_small.css" />
     <link rel="stylesheet" type="text/css" media="not print, (monochrome)"
-          href="{{ site.baseurl }}{{ site.url_css }}/{{ theme }}.css" />
+          href="{{ site.baseurl }}{{ site.url_css }}/{{ css_theme }}.css" />
     <link rel="stylesheet" type="text/css" media="print, (monochrome)"
           href="{{ site.baseurl }}{{ site.url_css }}/print.css" />
     {% if page.js_libs contains "D3" %}
@@ -79,8 +79,8 @@ href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Raleway" />
 
     {% unless page.hide contains "footer" %}
     <p class="footer">
-      {% if site.theme_url and site.theme_name %}
-      <a href="{{ site.theme_url }}">{{ site.theme_name }}</a>
+      {% if site.css_theme_url and site.css_theme_name %}
+      <a href="{{ site.css_theme_url }}">{{ site.css_theme_name }}</a>
       /{% endif %}
       <a href="http://validator.w3.org/check/referer">xhtml</a>
       /

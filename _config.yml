@@ -14,10 +14,10 @@ exclude: ['README.md', 'LICENSE']
 baseurl: ""
 
 # The default colour theme for every page and post.
-theme: "solarized-light"
+css_theme: "solarized-light"
 # Define a theme name and URL to have a link appear in the page footer.
-theme_name: "solarized"
-theme_url: "http://ethanschoonover.com/solarized"
+css_theme_name: "solarized"
+css_theme_url: "http://ethanschoonover.com/solarized"
 
 # The URLs for site-wide files such as stylesheets.
 url_css: "/assets/css"

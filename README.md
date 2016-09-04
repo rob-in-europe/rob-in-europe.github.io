@@ -23,8 +23,8 @@ The behaviour of this layout depends on the following variables:
 
 - `page.title`: the page title; `page.category` and `site.title` are the
   fallback options (in that order).
-- `page.theme`: the name of the stylesheet that defines the colour theme;
-  `site.theme` is the fallback option.
+- `page.css_theme`: the name of the stylesheet that defines the colour theme;
+  `site.css_theme` is the fallback option.
 - `page.js_libs`: a list of javascript libraries to load (defaults to []).
    - `D3`: use the (remote) D3 library.
    - `MathJax`: use the (remote) MathJax library.
