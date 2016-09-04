@@ -22,6 +22,12 @@ span.fradd { color: #dc322f; }
     border-radius: 1em;
     padding: 0.25em 1.25em;
 }
+/* Crosswords. */
+.crossword ~ dl dd span[title^="Anagram"] { color: #859900; }
+.crossword ~ dl dd span[title^="Answer"] { color: #dc322f; }
+.crossword ~ dl dd span[title^="Definition"] { color: #268bd2; }
+.crossword ~ dl dd span[title^="Modifier"] { color: #cb4b16; }
+.crossword ~ dl dd span[title^="Synonym"] { color: #6c71c4; }
 
 /* Colours specific to the light theme. */
 html { background-color: #fdf6e3; color: #657b83; }
@@ -39,6 +45,11 @@ ul.navbar { background-color: #eee8d5; }
 ul.navbar li.navloc { background-color: #fdf6e3; }
 div.heading { background-color: #eee8d5; }
 .prev, .next { background-color: #eee8d5; border: 1px solid #eee8d5; }
+/* Crosswords. */
+table.crossword td { border-color: #586e75; }
+table.crossword .blank { background-color: #586e75; }
+table.crossword .num { color: #586e75; }
+.crossword ~ dl dt { color: #586e75; }
 
 /* Syntax higlighting for code segments generated with `htmlize.el`. */
 div.code pre { border: 2px solid #eee8d5; }
