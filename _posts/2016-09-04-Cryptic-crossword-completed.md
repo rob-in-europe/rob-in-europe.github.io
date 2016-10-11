@@ -459,3 +459,21 @@ these crosswords.
 21d:
 : Unsure if "has emerged from" means to remove the letters "h", "a", and "s"
   from "shadowier".
+
+<div class="tooltip"></div>
+<script type="text/javascript">
+var tip = document.getElementsByClassName("tooltip")[0];
+tip.style["opacity"] = 0;
+tip.onclick = function () { tip.style["opacity"] = 0; };
+var span_list = document.querySelectorAll("span[title]");
+var spans = Array.prototype.slice.call(span_list, 0);
+spans.forEach(function(span, ix, array) {
+    span.onclick = function(event) {
+        tip.textContent = span.getAttribute("title");
+        tip.style["left"] = event.pageX + "px";
+        tip.style["top"] = event.pageY + "px";
+        tip.style["position"] = "absolute";
+        tip.style["opacity"] = 1;
+    };
+});
+</script>
