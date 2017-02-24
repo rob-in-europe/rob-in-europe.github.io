@@ -86,3 +86,37 @@ div.code pre { border: 2px solid #073642; }
 .highlight .kd, .highlight .kr { color: #268bd2; }
 /* Types. */
 .highlight .kt { color: #dc322f }
+
+/* Elements that request specific colours. */
+.theme-base, .theme-base:hover, .theme-base:active, .theme-base:visited { color: #839496; }
+.theme-highlight, .theme-highlight:hover, .theme-highlight:active, .theme-highlight:visited { color: #93a1a1; }
+.theme-green, .theme-green:hover, .theme-green:active, .theme-green:visited { color: #859900; }
+.theme-blue, .theme-blue:hover, .theme-blue:active, .theme-blue:visited { color: #268bd2; }
+.theme-red, .theme-red:hover, .theme-red:active, .theme-red:visited { color: #dc322f; }
+.theme-yellow, .theme-yellow:hover, .theme-yellow:active, .theme-yellow:visited { color: #b58900; }
+.theme-orange, .theme-orange:hover, .theme-orange:active, .theme-orange:visited { color: #cb4b16; }
+.theme-cyan, .theme-cyan:hover, .theme-cyan:active, .theme-cyan:visited { color: #2aa198; }
+.theme-violet, .theme-violet:hover, .theme-violet:active, .theme-violet:visited { color: #6c71c4; }
+.theme-magenta, .theme-magenta:hover, .theme-magenta:active, .theme-magenta:visited { color: #d33682; }
+
+.theme-bg-base { background-color: #002b36; }
+.theme-bg-highlight { background-color: #073642; }
+.theme-bg-green { background-color: #859900; }
+.theme-bg-blue { background-color: #268bd2; }
+.theme-bg-red { background-color: #dc322f; }
+.theme-bg-yellow { background-color: #b58900; }
+.theme-bg-orange { background-color: #cb4b16; }
+.theme-bg-cyan { background-color: #2aa198; }
+.theme-bg-violet { background-color: #6c71c4; }
+.theme-bg-magenta { background-color: #d33682; }
+
+.theme-border-base { border-color: #839496; }
+.theme-border-highlight { border-color: #93a1a1; }
+.theme-border-green { border-color: #859900; }
+.theme-border-blue { border-color: #268bd2; }
+.theme-border-red { border-color: #dc322f; }
+.theme-border-yellow { border-color: #b58900; }
+.theme-border-orange { border-color: #cb4b16; }
+.theme-border-cyan { border-color: #2aa198; }
+.theme-border-violet { border-color: #6c71c4; }
+.theme-border-magenta { border-color: #d33682; }
