@@ -87,5 +87,14 @@ Please enable JavaScript and reload this page.
         username: "2bago",
         userid: 1451771,
         show_on_hover: false,
+        show_err: true,
+        collection_url: "{{ site.baseurl }}{{ site.url_data }}/bgg-collection.xml",
+    });
+    BGG.load({
+        img_map: "#img-map",
+        username: "2bago",
+        userid: 1451771,
+        show_on_hover: false,
+        show_err: false,
     });
 </script>

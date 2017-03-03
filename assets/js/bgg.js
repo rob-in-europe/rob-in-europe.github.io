@@ -128,7 +128,10 @@ BGG.error = function(img_map, msg) {
                            '<div class="error">Error: ' + msg + '</div>');
 }
 
-BGG.request = function(url, data, success_fn, img_map) {
+BGG.request = function(url, data, success_fn, img_map, show_err) {
+    if (show_err === undefined) {
+        show_err = true;
+    }
     var query = {
         method: "GET",
         dataType : "xml",
@@ -144,18 +147,22 @@ BGG.request = function(url, data, success_fn, img_map) {
                     console.log("Will retry in 5 seconds ...");
                     setTimeout(function(){ $.ajax(query); },
                                5000);
-                } else {
+                } else if (show_err) {
                     BGG.error(img_map, 'No more retries, data unavailable');
                 }
-            } else {
+            } else if (show_err) {
                 BGG.error(img_map, textStatus);
             }
         },
         error: function(xhr, textStatus, errorThrown) {
             if (xhr.status == 0) {
-                BGG.error(img_map, 'Is JavaScript enabled for ' +
-                          'cors-anywhere.herokuapp.com?');
-            } else {
+                var msg = 'Is JavaScript enabled for ' +
+                    'cors-anywhere.herokuapp.com?';
+                console.log(msg);
+                if (show_err) {
+                    BGG.error(img_map, msg);
+                }
+            } else if (show_err) {
                 BGG.error(img_map, textStatus);
             }
         },
@@ -224,6 +231,7 @@ BGG.load = function(args) {
     var defaults = {
         collection_url: "https://www.boardgamegeek.com/xmlapi2/collection",
         show_on_hover: false,
+        show_err: true,
     };
     args = $.extend({}, defaults, args);
     if (! BGG.initialised) {
@@ -240,5 +248,5 @@ BGG.load = function(args) {
                 function(xmldoc) {
                     BGG.process(args.img_map, args.userid, xmldoc);
                 },
-                args.img_map);
+                args.img_map, args.show_err);
 }

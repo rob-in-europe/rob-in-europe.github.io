@@ -23,6 +23,7 @@ css_theme_url: "http://ethanschoonover.com/solarized"
 url_css: "/assets/css"
 url_img: "/assets/images"
 url_js: "/assets/js"
+url_data: "/assets/data"
 
 # Set to "/some/path" if the blog is hosted in a sub-directory of this site.
 url_blog: ""
