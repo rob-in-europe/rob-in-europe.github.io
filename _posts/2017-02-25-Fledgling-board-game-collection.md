@@ -18,12 +18,13 @@ that the memories were dulled by time and the agony was rediscovered all over
 again (I've since learnt that this may have been due to an all-too-common
 relaxation of the official rules, but that is scant comfort for the hours
 lost).
-Snakes and Ladders, stripped of its karmic lessons, was unbearably nihilistic. In my adolescence I became (loosely) aware to tabletop wargames and Dungeons &
+Snakes and Ladders, stripped of its karmic lessons, was unbearably nihilistic.
+In my adolescence I became (loosely) aware to tabletop wargames and Dungeons &
 Dragons, but primarily through video games that borrowed from these genres.
 Through my own failings, it took a relocation to Paris in my late twenties to
 become exposed to the much richer variety of board games that are available,
-populating entire bookshelves in friends' apartments and the forming the
-primary focus of entire afternoons and evenings.
+populating entire bookshelves in friends' apartments and forming the primary
+focus of entire afternoons and evenings.
 They even made frequent appearances during working hours, thanks to the
 seriousness with which the French treat the lunch break.
 Julien, Thibault, and colleagues, you know who you are!
