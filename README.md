@@ -25,9 +25,13 @@ The behaviour of this layout depends on the following variables:
   fallback options (in that order).
 - `page.css_theme`: the name of the stylesheet that defines the colour theme;
   `site.css_theme` is the fallback option.
+- `page.extra_css`: a list of additional page-specific stylesheets, relative
+  to the `assets/css` directory.
 - `page.js_libs`: a list of javascript libraries to load (defaults to []).
    - `D3`: use the (remote) D3 library.
    - `MathJax`: use the (remote) MathJax library.
+- `page.extra_js`: a list of additional page-specific javascript files,
+  relative to the `assets/js` directory.
 - `page.navid`: if this string matches one of the links in the navigation
   bar, that link is highlighted so as to identify the page as belonging to
   that portion of the site; `page.category` is the fallback option.
