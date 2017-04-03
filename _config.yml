@@ -25,6 +25,9 @@ url_img: "/assets/images"
 url_js: "/assets/js"
 url_data: "/assets/data"
 
+# The URL for MathJax (hosted by cdnjs).
+url_mathjax: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js"
+
 # Set to "/some/path" if the blog is hosted in a sub-directory of this site.
 url_blog: ""
 # Set to true if blog posts are listed (i.e., recent posts, posts by date,
