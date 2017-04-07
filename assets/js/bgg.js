@@ -184,7 +184,12 @@ BGG.tooltip = function(user_id, item) {
         play_link = '<a class="theme-blue" href="' + play_href + '">' +
             plays + ' plays</a>';
     }
-    var comm = item.getElementsByTagName('comment').item(0).textContent;
+    // There will only be a comment element if a comment exists.
+    var comm_elts = item.getElementsByTagName('comment');
+    var comm = "";
+    if (comm_elts.length == 1) {
+        comm = item.getElementsByTagName('comment').item(0).textContent;
+    }
     var rating = item.getElementsByTagName('rating').item(0).getAttribute('value');
     if (rating === 'N/A') {
         rating = 'Not rated';
