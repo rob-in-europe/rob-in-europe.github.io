@@ -2,18 +2,27 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
+{% capture repl_href %}<a href="{{ site.url }}/{% endcapture %}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title }}</title>
-    <description>{{ site.description }}</description>
+    <title>{{ site.title | xml_escape }}</title>
+    <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
     <atom:link rel="self" type="application/rss+xml"
                href="{{ site.url }}{{ site.url_blog }}/feed.xml" />
     {% for post in site.posts limit:site.feed_posts %}
       <item>
-        <title>{{ post.title }}</title>
-        <description>{{ post.excerpt | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+        <title>{{ post.title | xml_escape }}</title>
+        {% if post.excerpt %}
+        <description>{{ post.excerpt
+          | replace: '<a href="/', repl_href
+          | xml_escape }}</description>
+        {% else %}
+        <description>{{ post.content
+          | replace: '<a href="/', repl_href
+          | xml_escape }}</description>
+        {% endif %}
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ site.url }}{{ post.url }}</link>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
       </item>

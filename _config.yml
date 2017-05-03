@@ -1,7 +1,7 @@
 # The site title, used for pages with a title and in RSS feeds.
 title: "Rob (is no longer) in Europe"
 # The (absolute) URL at which the site can be found (e.g., used in RSS feeds).
-url: ""
+url: "http://rob-in-europe.github.io"
 # A brief description of the site (e.g., used in RSS feeds).
 description: ""
 
