@@ -4,4 +4,5 @@ category: misc
 navid: Misc
 asides:
 - links_cat
+- running
 ---
