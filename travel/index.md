@@ -1,7 +1,8 @@
 ---
-layout: posts_by_category
+layout: recent_posts
 category: travel
 navid: Travel
+asides:
+- links_cat
+- travel
 ---
-{% include links_cat %}
-{% include blurb_travel %}

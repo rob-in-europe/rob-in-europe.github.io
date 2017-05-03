@@ -1,0 +1,6 @@
+<aside class="right">
+<p class="name">Notes</p>
+<p class="item">
+  <a href="{{ site.baseurl }}/french/grammar">Grammar</a><br/>
+</p>
+</aside>

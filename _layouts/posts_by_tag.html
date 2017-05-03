@@ -1,6 +1,8 @@
 ---
 layout: site
 ---
+<h1>Posts by tag</h1>
+
 {% unless page.category %}
   {% assign posts = site.posts %}
 {% else %}
@@ -21,6 +23,7 @@ layout: site
 {{ content }}
 {% endif %}
 
+<nav class="posts">
 <ul>
 {% assign prevtag = "" %}
 {% for t in sortedtags %}
@@ -41,3 +44,4 @@ layout: site
   {% endunless %}
 {% endfor %}
 </ul>
+</nav>

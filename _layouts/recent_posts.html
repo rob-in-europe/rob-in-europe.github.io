@@ -1,0 +1,44 @@
+---
+layout: site
+---
+{% unless page.category %}
+  {% assign posts = site.posts %}
+{% else %}
+  {% assign posts = site.categories[page.category] %}
+{% endunless %}
+{% if page.max_posts %}
+  {% assign post_limit = page.max_posts %}
+{% else %}
+  {% assign post_limit = site.max_posts %}
+{% endif %}
+
+{% if content %}
+{{ content }}
+{% endif %}
+
+{% for post in posts limit:post_limit %}
+<article class="post in-listing">
+  <header>
+    <h2>{{ post.title }}</h2>
+    {% include post_sub_heading post=post page=page %}
+  </header>
+
+  {{ post.excerpt }}
+
+  <footer>
+    <!-- Only show the "Read more" link if there *is* more content. -->
+    {% if post.excerpt != post.content %}
+    <a class="more" href="{{ site.baseurl }}{{ post.url }}">Read more &#187;</a>
+    {% else %}
+    <a class="more" href="{{ site.baseurl }}{{ post.url }}">View post &#187;</a>
+    {% endif %}
+  </footer>
+
+</article>
+{% endfor %}
+
+{% if post_limit < posts.size %}
+<footer class="posts">
+  <nav><a href="{{ site.baseurl }}{{ page.archive_url }}">&#171; archive &#187;<!-- All posts &#187; --></a></nav>
+</footer>
+{% endif %}

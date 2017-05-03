@@ -1,15 +1,6 @@
-<div class="rcol">
-<p class="colname">
-  Notes
-</p>
-<p class="colitem">
-  <a href="{{ site.baseurl }}/french/grammar">Grammar</a><br/>
-</p>
-</div>
-<div class="heading">
 <p>
-<emph>One man strives to overcome the Gallic tongue...<br/>
-Un homme qui s'efforce de surmonter la langue gauloise...</emph>
+<em>One man strives to overcome the Gallic tongue...<br/>
+Un homme qui s'efforce de surmonter la langue gauloise...</em>
 </p>
 <p>
 Où j'ecris deux versions, un en anglais et l'autre en français, les deux ne
@@ -20,4 +11,3 @@ que je connais l'anglais.
 Trouvez mes erreurs et vous pourriez <strong>gagner</strong> ma gratitude
 éternelle!
 </p>
-</div>

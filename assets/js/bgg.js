@@ -61,6 +61,10 @@ BGG.init = function(args) {
         // area is clicked!
         tool_tip_close.push('area-click');
     }
+    // Default tooltip container.
+    if (args.tooltip_container === undefined) {
+        args.tooltip_container = '<div class="tooltip board-games"></div>';
+    }
 
     // Activate ImageMapster.
     $(args.img_map).mapster({
@@ -72,7 +76,7 @@ BGG.init = function(args) {
         strokeColor: '000000',
         strokeWidth: 1,
         showToolTip: args.show_on_hover,
-        toolTipContainer: '<div class="tooltip bgg"></div>',
+        toolTipContainer: args.tooltip_container,
         toolTipClose: tool_tip_close,
         mapKey: 'id',
         isSelectable: false,
@@ -132,21 +136,39 @@ BGG.request = function(url, data, success_fn, img_map, show_err) {
     if (show_err === undefined) {
         show_err = true;
     }
+    var exp_msg = [
+        'Your request for this collection has been accepted',
+        ' and will be processed.',
+        '  Please try again later for access.'
+    ].join('');
+    var timeout_const = 5000;
     var query = {
         method: "GET",
         dataType : "xml",
         attempts: 3,
+        timeout: 0,
         url: url,
         data: data,
         success: function(xmldoc, textStatus, xhr) {
             if (xhr.status == 200) {
                 success_fn(xmldoc);
             } else if (xhr.status == 202) {
-                query.attempts--;
+                var beingProcessed = false;
+                if (xmldoc.documentElement.nodeName === 'message') {
+                    var msg = xmldoc.documentElement.textContent.trim();
+                    beingProcessed = (msg === exp_msg);
+                }
+                if (beingProcessed) {
+                    query.timeout += timeout_const;
+                } else {
+                    query.timeout = timeout_const;
+                    query.attempts--;
+                }
                 if (query.attempts > 0) {
-                    console.log("Will retry in 5 seconds ...");
+                    console.log("Will retry in %d seconds ...",
+                               query.timeout / 1000);
                     setTimeout(function(){ $.ajax(query); },
-                               5000);
+                               query.timeout);
                 } else if (show_err) {
                     BGG.error(img_map, 'No more retries, data unavailable');
                 }

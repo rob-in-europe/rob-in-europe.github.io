@@ -1,15 +1,3 @@
-<div class="rcol">
-<p class="colname">
-  Other blogs
-</p>
-<p class="colitem">
-  <a href="http://petitparcautourdumonde.fr/">Mathieu & Alexandra</a><br/>
-  <a href="http://paulfraser.livejournal.com/">Dr Fraser</a><br/>
-  <a href="http://docmatrix.blogspot.com/">Mr Pollock</a><br/>
-  &nbsp;
-</p>
-</div>
-<div class="heading">
 <p>
 After submitting my PhD thesis I wandered around Europe for six months (way
 back in 2008&ndash;2009).
@@ -20,4 +8,3 @@ two years in Durham, North Carolina (2012&ndash;2014) before returning home.
 And I'm way behind in writing about <a href="{{ site.baseurl }}/travel">my
 travels</a> and other significant life events.
 </p>
-</div>

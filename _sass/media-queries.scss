@@ -1,0 +1,51 @@
+/*****************************************************************************
+  Rules for small screens (e.g., mobile phones)
+*****************************************************************************/
+
+@media not all and (min-width: 60em) {
+    /* Ensure the text doesn't touch the screen edges. */
+    body { margin-left: 0.5em; margin-right: 0.5em; }
+    /* Avoid justifying text, the word spacing looks terrible. */
+    p, article, ul, ol { text-align: left; }
+    /* Show the previous-post and next-post links on either edge. */
+    .post .prev { float: left; margin-left: -0.5rem; }
+    .post .next { float: right; margin-right: -0.5rem; }
+    /* Ensure there is vertical space around these links. */
+    .post .prev, .post .next { margin-top: 1rem; margin-bottom: 1rem; }
+    /* nav.post + * { clear: both; } */
+    aside.left, aside.right { float: none; display: block;
+                              margin-left: auto; margin-right: auto; }
+    aside.left *, aside.right * { text-align: center; }
+}
+
+/*****************************************************************************
+  Rules for larger screens
+*****************************************************************************/
+
+@media all and (min-width: 60em) {
+    /* Show the previous-post and next-post links in fixed positions. */
+    .post .prev, .post .next { position: fixed; top: 50%; }
+    .post .prev { left: 0; }
+    .post .next { right: 0; }
+    aside.left { float: left; clear: left; margin-right: 0; }
+    aside.right { float: right; clear: right; margin-left: 0; }
+    aside.left * { text-align: right; }
+    aside.right * { text-align: left; }
+}
+
+/*****************************************************************************
+  Printing
+*****************************************************************************/
+
+@media print, (monochrome) {
+    /* Hide the site header and footer. */
+    header.site, footer.site { display: none; }
+    /* Ensure that hyperlinks are legible on monochrome/greyscale printers. */
+    a { color: black; }
+    /* Display the URL after each link. */
+    a:link:after, a:visited:after { content:" (URL: " attr(href) ") "; }
+    /* Try to avoid page breaks inside paragraphs. */
+    p { page-break-inside: avoid; }
+    /* Hide links to the previous and next posts. */
+    .post .prev, .post .next { display: none; }
+}

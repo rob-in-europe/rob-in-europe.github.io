@@ -1,7 +1,7 @@
 ---
-layout: posts_by_category
+layout: recent_posts
 category: recipes
 navid: Recipes
+asides:
+- links_cat
 ---
-{% include links_cat %}
-{% include blurb_recipes %}

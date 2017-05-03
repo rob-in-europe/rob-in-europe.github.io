@@ -1,0 +1,92 @@
+/*****************************************************************************
+  Crossword appearance
+*****************************************************************************/
+
+.crossword {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 1em 1em;
+}
+
+.crossword caption {
+    margin-bottom: 1em;
+}
+
+.crossword th, .crossword td {
+    padding: 0.1em 0.25em;
+    padding-right: 1em;
+}
+
+.crossword {
+    margin-top: 1em;
+}
+
+.crossword tr {
+    font-family: "DejaVu Sans Mono", "Droid Sans Mono", monospace;
+    font-size: 90%;
+}
+
+/* Display crossword captions below the crossword. */
+.crossword caption {
+    caption-side: bottom;
+    padding-top: 1.5em;
+}
+
+/* Enforce square cells. */
+.crossword td {
+    width: 2.25em;
+    height: 2.25em;
+    border: 2px solid;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    position: relative; /* Require for clue numbers (see below). */
+}
+
+/* Position clue numbers in the top-left corner. */
+.crossword .num {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1em;
+    line-height: 1em;
+    font-family: "DejaVu Sans", "Droid Sans", "Calibri", "Verdana", sans-serif;
+    font-size: 75%;
+    vertical-align: text-top;
+    font-weight: bold;
+}
+
+/* Clue list numbering -- siblings of the .crossword table. */
+.crossword ~ dl dt {
+    float: left;
+    clear: left;
+    font-weight: bold;
+    width: 2.5em;
+    text-align: right;
+}
+/* Clue definitions. */
+.crossword ~ dl dd {
+    margin-left: 0;
+    padding-left: 3em; /* Hanging indent, relative to dt element. */
+}
+
+/* Solution explanations, indicate tooltips. */
+.crossword ~ dl dd span[title] {
+    cursor: help;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+.crossword ~ dl dd span[title]:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.crossword td { border-color: $fg-highlight; }
+.crossword .blank { background-color: $fg-highlight; }
+.crossword .num { color: $fg-highlight; }
+.crossword ~ dl dt { color: $fg-highlight; }
+.crossword ~ dl dd span[title^="Anagram"] { color: $fg-green; }
+.crossword ~ dl dd span[title^="Answer"] { color: $fg-red; }
+.crossword ~ dl dd span[title^="Definition"] { color: $fg-blue; }
+.crossword ~ dl dd span[title^="Modifier"] { color: $fg-orange; }
+.crossword ~ dl dd span[title^="Synonym"] { color: $fg-violet; }

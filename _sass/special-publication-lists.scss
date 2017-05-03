@@ -1,0 +1,25 @@
+/*****************************************************************************
+  Publication lists
+*****************************************************************************/
+
+.publication-list { text-align: left; }
+.publication-list li {
+    line-height: 1.25em;
+    margin-left: -3em;
+    padding-left: 3em;
+    padding-right: 0em;
+    padding-bottom: 1em;
+    background-size: auto;
+}
+.publication-list .epi {
+    background-image: url("/assets/images/influenza.png");
+}
+.publication-list .renal {
+    background-image: url("/assets/images/kidney.png");
+}
+.publication-list .journal {
+    color: $fg-green;
+}
+.publication-list .author {
+    color: $fg-yellow;
+}

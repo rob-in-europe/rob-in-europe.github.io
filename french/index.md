@@ -1,7 +1,6 @@
 ---
-layout: posts_by_category
-category: french
-navid: French
+layout: recent_posts
+asides:
+- links_cat
+- french
 ---
-{% include links_cat %}
-{% include blurb_french %}

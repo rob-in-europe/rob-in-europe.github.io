@@ -18,6 +18,9 @@ css_theme: "solarized-light"
 # Define a theme name and URL to have a link appear in the page footer.
 css_theme_name: "solarized"
 css_theme_url: "http://ethanschoonover.com/solarized"
+# Generate compact CSS files.
+sass:
+    style: compressed
 
 # The URLs for site-wide files such as stylesheets.
 url_css: "/assets/css"
@@ -30,9 +33,6 @@ url_mathjax: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js"
 
 # Set to "/some/path" if the blog is hosted in a sub-directory of this site.
 url_blog: ""
-# Set to true if blog posts are listed (i.e., recent posts, posts by date,
-# and posts by tag) on a per-category basis.
-listed_by_cat: true
 
 # The URL for each blog post, as per http://jekyllrb.com/docs/permalinks/.
 permalink: /:categories/:year/:month/:day/:title
@@ -42,11 +42,83 @@ timezone: "Australia/Melbourne"
 
 # Links that appear in the navigation bar.
 navlinks:
-  - Home: "/"
-  - Travel: "/travel"
-  - Recipes: "/recipes"
-  - French: "/french"
-  - Misc: "/misc"
+  - Home:
+      url: "/"
+      img: "home.png"
+  - Travel:
+      url: "/travel"
+      img: "travel.png"
+  - Recipes:
+      url: "/recipes"
+      img: "recipes.png"
+  - French:
+      url: "/french"
+      img: "french.png"
+  - Misc:
+      url: "/misc"
+      img: "misc.png"
+
+# Set default layouts and navigation IDs, based on:
+# http://stackoverflow.com/a/23555679
+# Note that the range of values for "type" have changed since Jekyll 2.2;
+# valid values are: "pages", "posts", "drafts", and any collection.
+# See https://jekyllrb.com/docs/configuration/ for details.
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: "posts" # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      is_post: false
+      layout: "site"
+      archive_url: "date"
+  -
+    scope:
+      path: "date"
+    values:
+      navid: "Home"
+      blurb: "home"
+  -
+    scope:
+      path: "tag"
+    values:
+      navid: "Home"
+      blurb: "home"
+  -
+    scope:
+      path: "french"
+    values:
+      navid: "French"
+      category: "french"
+      blurb: "french"
+  -
+    scope:
+      path: "misc"
+    values:
+      navid: "Misc"
+      category: "misc"
+      blurb: "misc"
+  -
+    scope:
+      path: "recipes"
+    values:
+      navid: "Recipes"
+      category: "recipes"
+      blurb: "recipes"
+  -
+    scope:
+      path: "travel"
+    values:
+      navid: "Travel"
+      category: "travel"
+      blurb: "travel"
 
 # Whether to display previous post and next post links for each post.
 show_prev_next: true

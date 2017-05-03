@@ -1,0 +1,28 @@
+/*****************************************************************************
+  Board game collection appearance
+*****************************************************************************/
+
+/* Basic layout of page elements. */
+.board-games noscript { font-size: 125%; }
+.board-games .map { padding-bottom: 1.5em; }
+.board-games .map img { display: block; width: 100%; }
+
+/* Only underline links on hover. */
+.board-games.tooltip a, .board-games.tooltip a:active, .board-games.tooltip a:visited {
+    text-decoration: none; }
+.board-games.tooltip a:hover { text-decoration: underline; }
+
+/* Spacing and arrangement of tool-tip elements. */
+.board-games.tooltip .game, .board-games.tooltip .game div {
+    width: auto; line-height: 1.5em; }
+.board-games.tooltip .game { margin: 0; padding: 0; text-align: center; }
+.board-games.tooltip .close { float: right; font-family: sans;
+                      outline: 0; font-weight: bold; }
+.board-games.tooltip .name { font-weight: bold; text-align: center; }
+.board-games.tooltip .plays { padding-left: 0.5em; }
+.board-games.tooltip .rating { padding-right: 0.5em; }
+.board-games.tooltip .plays, .board-games.tooltip .rating {
+    display:inline-block; font-weight: bold; }
+.board-games.tooltip .comment {
+    clear: both; text-align: left;
+    margin-top: 1em; margin-bottom: 0em; padding: 0.25em; }

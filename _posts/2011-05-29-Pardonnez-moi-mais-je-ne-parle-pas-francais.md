@@ -21,8 +21,8 @@ comments:
 May 16, 2011, marks a milestone both personal and professional.
 For a period of slightly less than thirty minutes, I was reduced to a nervous
 wreck the likes of which I have not resembled since my undergraduate days.
-The occassion was the [XXXI^(ème) Séminaire de la Société Francophone
-de Biologie Théorique](http://sfbt-2011.imag.fr/) (the 31^(st)
+The occassion was the [XXXI<sup>ème</sup> Séminaire de la Société Francophone
+de Biologie Théorique](http://sfbt-2011.imag.fr/) (the 31<sup>st</sup>
 Conference of the Francophone Society of Theoretical Biology).
 To finish the very first session of talks, I stumbled my way (not completely
 awkwardly) through a hastily concieved and poorly rehearsed overview of my

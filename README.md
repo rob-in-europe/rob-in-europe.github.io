@@ -35,6 +35,9 @@ The behaviour of this layout depends on the following variables:
 - `page.navid`: if this string matches one of the links in the navigation
   bar, that link is highlighted so as to identify the page as belonging to
   that portion of the site; `page.category` is the fallback option.
+- `page.asides`: a list of asides (`_includes/aside_NAME`) to include.
+- `page.blurb`: a blurb to display at the top of the page
+  (`_includes/blurb_NAME`).
 
 The visibility of several page elements can be controlled by the following
 variables:
@@ -82,7 +85,7 @@ Comments can be embedded in the YAML front matter:
         within a paragraph element. So you only need tags between paragraphs.
     ---
 
-## Posts by category
+## Recent posts
 
 Lists the most recent posts belonging to a single category, or across all
 categories.
@@ -96,8 +99,6 @@ The behaviour of this layout depends on the following variables:
   **all** categories are listed; if defined, the most recent posts from that
   specific category are listed.
 - `site.max_posts`: the number of posts to display.
-- `site.listed_by_cat`: if true **and** `page.category` is undefined, links to
-  per-category post listings are added under post dates (defaults to "false").
 
 ## Posts by date
 
@@ -118,54 +119,3 @@ The behaviour of this layout depends on the following variables:
 
 - `page.category`: if undefined (default) then **all** posts  are listed; if
   defined, then only posts from that specific category are listed.
-
-# Document structure and CSS
-
-The following stylesheets control the appearance of each page:
-
-- `common.css`: defines font sizes and families, basic page layout, and the
-  appearance of lists and tables.
-- `print.css`: hides non-essential elements, replaces colours and highlights
-  with greyscale shades and decorations, and resizes the content to fill the
-  page.
-- `screen_large.css`: defines the page layout for sufficiently large screens.
-- `screen_small.css`: defines a compact page layout for devices with smaller
-  screens.
-- `solarized-dark.css`: applies the
-  [Solarized](http://www.ethanschoonover.com/solarized) colour palette (dark
-  version).
-- `solarized-light.css`: applies the
-  [Solarized](http://www.ethanschoonover.com/solarized) colour palette (light
-  version).
-
-## CSS classes
-
-The main body of each page is contained within `div#content`, which is centred
-horizontally across the page and whose width defines the horizontal space
-available to the page contents and the margin columns (`.lcol` and `.rcol`,
-respectively).
-
-Column contents (`div.lcol` and `div.rcol`) typically contain a heading
-(`p.colname`) and one or more links wrapped in `p.colitem` element(s).
-
-Page blurbs (as defined in `_includes/blurb_*`) can contain links to be
-displayed in columns at the top of the page, and also a blurb (`div.heading`)
-that is displayed with a highlighted background and rounded corners.
-
-Unordered lists (`ul`) have custom bullets, defined as non-repeated
-backgrounds for each list item (`li`).
-Ordered lists (`ol`), on the other hand, use the standard list style but are
-indented so that the numbering does not escape the left-hand margin and cross
-into the left-hand margin column.
-
-Code blocks (`div.code pre`) are highlighted using span classes whose names
-are taken from the Emacs font-lock attributes, as defined by the major mode
-and written by `htmlize.el` (using the commands `htmlize-buffer`,
-`htmlize-file` and `htmlize-region`).
-The code blocks are not generated with `pygments` because, for languages such
-as OCaml, `pygments` does not distinguish between various syntactical elements
-while the Emacs modes (such as `tuareg`) do.
-
-Additional CSS rules are defined to style the SVG elements of plots produced
-using the `D3` javascript library, and will cause the website to fail the W3C
-CSS validator's checks.

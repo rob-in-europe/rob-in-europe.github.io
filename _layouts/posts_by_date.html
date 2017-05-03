@@ -1,6 +1,8 @@
 ---
 layout: site
 ---
+<h1>Posts by date</h1>
+
 {% assign date_fmt = '%b %Y' %}
 {% assign prev_date = '' %}
 
@@ -14,6 +16,7 @@ layout: site
 {{ content }}
 {% endif %}
 
+<nav class="posts">
 <ul>
 {% for post in posts %}
   {% capture this_date %}{{ post.date | date: date_fmt }}{% endcapture %}
@@ -26,3 +29,4 @@ layout: site
   </li>
 {% endfor %}
 </ul>
+</nav>

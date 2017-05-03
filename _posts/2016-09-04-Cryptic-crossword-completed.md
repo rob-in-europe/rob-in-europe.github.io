@@ -460,7 +460,7 @@ these crosswords.
 : Unsure if "has emerged from" means to remove the letters "h", "a", and "s"
   from "shadowier".
 
-<div class="tooltip"></div>
+<div class="tooltip crossword"></div>
 <script type="text/javascript">
 var tip = document.getElementsByClassName("tooltip")[0];
 tip.style["opacity"] = 0;

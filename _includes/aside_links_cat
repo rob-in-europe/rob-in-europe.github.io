@@ -1,9 +1,8 @@
-<div class="lcol">
-<p class="colname">
+<aside class="left">
+<p class="name">
   Archive
 </p>
-<p class="colitem">
+<p class="item">
   <a href="date">by date</a> / <a href="tag">by tag</a>
 </p>
-</div>
-
+</aside>

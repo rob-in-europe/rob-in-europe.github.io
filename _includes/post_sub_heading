@@ -1,0 +1,25 @@
+{% for cat in include.post.categories %}
+  {% capture link %}{{ site.baseurl }}{{ site.url_blog }}/{{ cat }}{% endcapture %}
+  {% capture img %}{{ site.baseurl }}{{ site.url_img }}/{{ cat }}.png{% endcapture %}
+  {% capture title %}{{ cat | capitalize }} posts{% endcapture %}
+  <span class="category"><a title="{{ title }}" href="{{ link }}"><img alt="{{ title }}" src="{{ img }}"></a></span>
+{% endfor %}
+<span class="date">{{ include.post.date | date: "%b %-d, %Y" }}</span>
+{% if include.post.tags and include.post.tags.size > 0 %}
+&#8212;
+{% capture tags %}
+  {% for tag in include.post.tags %}
+    {{ tag | replace: ' ', '&#32;' }}
+  {% endfor %}
+{% endcapture %}
+{% assign sortedtags = tags | split:' ' | sort %}
+{% for tag in sortedtags %}
+  {% assign tagname = tag | upcase %}
+  {% unless tag == tagname %}
+    {% assign tagname = tag | capitalize %}
+  {% endunless %}
+  <span class="tag">
+  <a href="{{ site.baseurl }}{{ site.url_blog }}/tag/#{{ tag }}">{{ tagname }}</a>
+  </span>
+{% endfor %}
+{% endif %}

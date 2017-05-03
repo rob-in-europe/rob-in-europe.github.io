@@ -2,12 +2,10 @@
 layout: post
 title: Fledgling board game collection
 category: misc
-tags: ['board games']
+tags: ['Board games']
 extra_js:
   - jquery-3.1.1.min.js
   - jquery.imagemapster.min.js
-extra_css:
-  - bgg.css
 ---
 
 As a child, Scrabble was our family's board game of choice.
@@ -46,7 +44,7 @@ board game collection ...
 Please enable JavaScript and reload this page.
 </noscript>
 
-<div class="bgg">
+<div class="board-games main-content">
   <div class="map">
     <map name="map">
       <area shape="poly" coords="40,210,190,208,200,550,50,550"

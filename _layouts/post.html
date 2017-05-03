@@ -1,61 +1,57 @@
 ---
 layout: site
 ---
+<article class="post">
 {% if site.show_prev_next %}
-  {% assign prev_post = page.previous %}
-  {% for ign_post in site.posts %}
-    {% if prev_post and prev_post.category == page.category %}
-    <div class="prev">
-      <a href="{{ site.baseurl }}{{ prev_post.url }}" rel="prev"
-               title="{{ prev_post.title }}">&laquo;</a></div>
-    {% break %}
-    {% else %}
-      {% assign prev_post = prev_post.previous %}
-    {% endif %}
-  {% endfor %}
-  {% assign next_post = page.next %}
-  {% for ign_post in site.posts %}
-    {% if next_post and next_post.category == page.category %}
-    <div class="next">
-      <a href="{{ site.baseurl }}{{ next_post.url }}" rel="next"
-               title="{{ next_post.title }}">&raquo;</a></div>
-    {% break %}
-    {% else %}
-      {% assign next_post = next_post.next %}
-    {% endif %}
-  {% endfor %}
+  {% if page.previous %}
+    <nav class="prev">
+      <a href="{{ site.baseurl }}{{ page.previous.url }}" rel="prev"
+               title="{{ prev_post.title }}">&laquo;</a></nav>
+  {% endif %}
+  {% if page.next %}
+    <nav class="next">
+      <a href="{{ site.baseurl }}{{ page.next.url }}" rel="next"
+               title="{{ next_post.title }}">&raquo;</a></nav>
+  {% endif %}
 {% endif %}
-<div class="lcol postdate">
-  <p class="colname">{{ page.date | date: "%b %-d, %Y" }}</p>
-  {% assign category = page.categories[0] %}
-  {% include links_to_tags tags=page.tags category=category %}
-</div>
+
+<header>
+  <h1>{{ page.title | strip }}</h1>
+  {% include post_sub_heading post=page page=page %}
+</header>
+
 {% if page.galleries %}
-<div class="lcol">
-  <p class="colname"><img src="{{ site.base_url}}{{ site.url_img }}/photos.png" alt="" />Photos</p>
+<aside class="left">
+  <p class="name"><img src="{{ site.base_url}}{{ site.url_img }}/photos.png" alt="" />Photos</p>
   {% for url_hash in page.galleries %}
-  <p class="colitem"><a href="{{ url_hash[1] }}">{{ url_hash[0] }}</a></p>
+  <p class="item"><a href="{{ url_hash[1] }}">{{ url_hash[0] }}</a></p>
   {% endfor %}
-</div>
+</aside>
 {% endif %}
-<div>
-{{ content }}
+
+<div class="body">
+  {{ content }}
+</div>
+
 {% if page.comments %}
+  <section class="comments main-content">
   {% capture ctitle %}{% if page.comments.size == 1 %}1 comment
   {% else %}{{ page.comments.size }} comments{% endif %}{% endcapture %}
-  <h3 class="comments" id="comments">{{ ctitle }}</h3>
+  <h3 id="comments">{{ ctitle }}</h3>
   {% for comment in page.comments %}
-    <div class="comment" id="comment{{ forloop.index }}"><p>{{ comment.text }}<br/>
+    <article class="comment" id="comment{{ forloop.index }}"><p>{{ comment.text }}<br/>
     <span class="author">{{ comment.author }}</span>
     <span class="date">{{ comment.date }}</span></p>
-    </div>
+    </article>
   {% endfor %}
+  </section>
 {% endif %}
 {% assign post_license = site.default_license %}
 {% if page.license %}
 {% assign post_license = page.license %}
 {% endif %}
 {% if post_license %}
+<footer>
 {% for license in site.licenses %}
   {% if license.name == post_license %}
   <p class="license"><a rel="license" href="{{ license.url }}">
@@ -64,5 +60,6 @@ layout: site
   </a></p>{% break %}
   {% endif %}
 {% endfor %}
+</footer>
 {% endif %}
-</div>
+</article>

@@ -1,8 +1,5 @@
 ---
 layout: posts_by_tag
-category: misc
-navid: Misc
+asides:
+- links_tag
 ---
-{% include links_tag %}
-{% include blurb_misc %}
-<h1>Posts by tag</h1>

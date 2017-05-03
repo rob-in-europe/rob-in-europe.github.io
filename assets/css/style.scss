@@ -1,0 +1,252 @@
+---
+---
+/*
+ * Table of Contents
+ * -----------------
+ *  1. CSS reset and theme colour palette
+ *  2. Basic layout
+ *  3. Main site elements (.site)
+ *  4. Page blurbs (.blurb)
+ *  5. Asides
+ *  6. Blog post listings (nav.posts, .post.in-listing)
+ *  7. Blog post appearance (.post)
+ *  8. Media queries and special content blocks
+ *
+ */
+
+/*****************************************************************************
+  CSS reset and theme colour palette
+*****************************************************************************/
+
+@import 'reset';
+@import 'colour-theme';
+
+/*****************************************************************************
+  Basic layout
+*****************************************************************************/
+
+body {
+    font-family: "DejaVu Sans", "Droid Sans", "Calibri", "Verdana",
+    sans-serif;
+    text-align: left;
+    font-size: 100%; line-height: 1.5em;
+    max-width: 60em; margin: auto;
+    background-color: $bg-base; color: $fg-base;
+}
+
+/* Allow structural content blocks to span both side-columns.
+   These are the only elements that can contain floated <aside> elements. */
+section, article, div { max-width: inherit; }
+/* Make all other content blocks span only the centre (main) column. */
+p, pre, img, table, dl, ul, ol, header, footer, h1, h2, h3,
+.main-content {
+    max-width: 40rem; margin-left: auto; margin-right: auto; }
+
+h1, h2, h3 {
+    font-family: "Raleway", "DejaVu Sans", "Droid Sans", "Calibri", "Verdana",
+    sans-serif;
+    text-align: center;
+}
+h1 { font-size: 150%; }
+h2 { font-size: 130%; }
+h3 { font-size: 110%; }
+
+p { text-align: justify; }
+em { color: $fg-green; }
+a { color: $fg-blue; }
+a.more { color: $fg-magenta; }
+footer { text-align: center; border-color: $bg-highlight; }
+
+/* Basic list appearance. */
+ul { list-style: none; text-align: justify; }
+ul li {
+    background-image: url("../images/bullet.png");
+    background-repeat: no-repeat;
+    background-position: 0em 0.55em;
+    background-size: 1em 1em;
+}
+ol li { list-style-position: inside; }
+
+/* Floating tooltip appearance. */
+.tooltip {
+    font-size: 0.8rem;
+    line-height: 1.25em;
+    padding: 0.5em 0.75em; border-radius: 1em;
+    position: absolute;
+    background-color: $bg-highlight;
+    max-width: 30em;
+}
+
+/* Horizontal rule separators. */
+.separator {
+    height: 0.5em; padding: 0em; margin: 0.5em 0em; border-style: none;
+    background-color: $bg-highlight;
+}
+
+/* Hide elements that will be revealed by scripts. */
+.showjs { display: none; }
+
+/*****************************************************************************
+  Main site elements (.site)
+*****************************************************************************/
+
+.site nav ul, .site nav ol { text-align: center; }
+.site nav li {
+    display: inline; margin: 0; padding: 0;
+    background-image: none;
+}
+.site nav a {
+    display: inline-block;
+    vertical-align: middle;
+    /* Note: the vertical padding and hover borders are related */
+    margin: 0.5em; padding: 0.5em 0.5em 0.25em 0.5em;
+    border-color: $fg-cyan;
+}
+.site nav a.active {
+    border-top-style: solid;
+    border-top-width: 0.25em;
+    padding-top: 0.25em;
+}
+.site nav a:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 0.25em;
+    padding-bottom: 0em;
+}
+footer.site {
+    font-size: 75%;
+    margin-top: 1em;
+    border-top-width: 0.5em;
+    border-top-style: solid;
+}
+
+/*****************************************************************************
+  Page blurbs (.blurb)
+*****************************************************************************/
+
+.blurb { padding: 0.75em; margin-bottom: 1em;
+         background-color: $bg-highlight; }
+.blurb .separator { background-color: $bg-base; }
+.blurb p { display: inline-block; margin: 0.5em 0; padding: 0; }
+
+.blurb, blurb * { font-size: 90%; line-height: 1.25em; }
+.blurb { border-radius: 1em; }
+.blurb nav { text-align: center; }
+.blurb nav img { margin: 1em 1em 0em 1em; }
+.blurb nav.docs img { margin: 0em; vertical-align: text-bottom; }
+
+.blurb address { overflow: auto; }
+.blurb address span { display: inline-block; font-style: italic;
+                      font-size: 90%; }
+/* Add the margin so that italic text is not cropped. */
+.blurb address .location {
+    text-align: right; float: right; margin-right: 0.1em; }
+
+/*****************************************************************************
+  Asides
+*****************************************************************************/
+
+aside { margin-bottom: 1.5em; }
+aside * { margin: 0; padding: 0; }
+aside, aside > * { width: 8rem; }
+aside img, .post .body aside p img {
+    height: 1.2em; clear: none; float: none; padding-right: 0.25em;
+    margin: 0 0 -0.1em 0; }
+aside .name, aside .item { font-family: "Raleway", "DejaVu Sans",
+                           "Droid Sans", "Calibri", "Verdana", sans-serif; }
+aside .name { line-height: 1.25em; margin-bottom: 0.25em;
+              color: $fg-cyan; border-bottom: 2px solid $fg-cyan;}
+aside .item { line-height: 1.5em; font-size: 0.75em; font-weight: bold; }
+aside a  { color: $fg-magenta; }
+
+/*****************************************************************************
+  Blog post listings (nav.posts, .post.in-listing)
+*****************************************************************************/
+
+nav.posts h2 {
+    border-top-width: 2px;
+    border-style: solid;
+    border-color: $bg-highlight;
+    padding-top: 1em;
+    margin-top: 2em;
+    margin-bottom: 1rem;
+    font-size: 1.2em;
+}
+/* Highlight the target tag ... */
+nav.posts h2:target { color: $fg-magenta; }
+
+.post.in-listing {
+    margin-top: 2.5em;
+}
+
+.post.in-listing header {
+    padding-top: 1em;
+    margin-top: 2.5em;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-color: $bg-highlight;
+}
+
+.post.in-listing footer {
+    text-align: left;
+    clear: none;
+}
+
+/*****************************************************************************
+  Blog post appearance (.post)
+*****************************************************************************/
+
+.post header { text-align: center; }
+.post header span { font-size: 90%; font-style: italic; }
+.post .category img {
+    display: inline-block; vertical-align: sub; height: 1.25em;
+}
+.post .tag a { color: $fg-violet; }
+.post .body img { max-width: 100%; }
+.post .body p img {
+    clear: none;
+    float: right;
+    margin: 0 0 0.5em 0.5em;
+}
+.post .comments h3 { text-align: left; }
+.post .comment { max-width: 80%; margin-left: auto; margin-right: auto;
+                 font-size: 90%; line-height: 1.25em; }
+.post .comment .author { padding-right: 1em; font-weight: bold; }
+.post .comment .author, .post .comment .date { color: $fg-green; }
+
+/* Highlight the target comment ... */
+.post .comment:target {
+    border-radius: 1em;
+    background-color: $bg-highlight;
+}
+
+.post footer { clear: both; }
+.post .license { text-align: right; margin-bottom: 0; }
+
+/* Prev/next post links.
+
+   Note: when using guillemets, the line-height has to be 0.25rem less than
+   the height in order for the characters to appear vertically centred. */
+.post .prev, .post .next {
+    background-color: $bg-highlight;
+    width: 2.5rem; height: 2.5rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.25rem;
+    font-size: 2.5rem; }
+.post .prev { border-top-right-radius: 0.75rem;
+              border-bottom-right-radius: 0.75rem; }
+.post .next { border-top-left-radius: 0.75rem;
+              border-bottom-left-radius: 0.75rem; }
+/* Don't underline the previous and next links. */
+.post .prev a:link, .post .prev a:hover { text-decoration: none; }
+.post .next a:link, .post .next a:hover { text-decoration: none; }
+
+/*****************************************************************************
+  Media queries and special content blocks
+*****************************************************************************/
+
+@import 'media-queries';
+@import 'special-board-games';
+@import 'special-crosswords';
+@import 'special-plots';
+@import 'special-publication-lists';

@@ -1,0 +1,53 @@
+/*****************************************************************************
+  Solarized colour palette (http://ethanschoonover.com/solarized)
+*****************************************************************************/
+
+$fg-base: #657b83;
+$fg-highlight: #586e75;
+$fg-green: #859900;
+$fg-blue: #268bd2;
+$fg-red: #dc322f;
+$fg-yellow: #b58900;
+$fg-orange: #cb4b16;
+$fg-cyan: #2aa198;
+$fg-violet: #6c71c4;
+$fg-magenta: #d33682;
+$bg-base: #fdf6e3;
+$bg-highlight: #eee8d5;
+
+/*****************************************************************************
+  Elements that request specific colours
+*****************************************************************************/
+
+.theme-base, .theme-base:hover, .theme-base:active, .theme-base:visited { color: $fg-base; }
+.theme-highlight, .theme-highlight:hover, .theme-highlight:active, .theme-highlight:visited { color: $fg-highlight; }
+.theme-green, .theme-green:hover, .theme-green:active, .theme-green:visited { color: $fg-green; }
+.theme-blue, .theme-blue:hover, .theme-blue:active, .theme-blue:visited { color: $fg-blue; }
+.theme-red, .theme-red:hover, .theme-red:active, .theme-red:visited { color: $fg-red; }
+.theme-yellow, .theme-yellow:hover, .theme-yellow:active, .theme-yellow:visited { color: $fg-yellow; }
+.theme-orange, .theme-orange:hover, .theme-orange:active, .theme-orange:visited { color: $fg-orange; }
+.theme-cyan, .theme-cyan:hover, .theme-cyan:active, .theme-cyan:visited { color: $fg-cyan; }
+.theme-violet, .theme-violet:hover, .theme-violet:active, .theme-violet:visited { color: $fg-violet; }
+.theme-magenta, .theme-magenta:hover, .theme-magenta:active, .theme-magenta:visited { color: $fg-magenta; }
+
+.theme-bg-base { background-color: $bg-base; }
+.theme-bg-highlight { background-color: $bg-highlight; }
+.theme-bg-green { background-color: $fg-green; }
+.theme-bg-blue { background-color: $fg-blue; }
+.theme-bg-red { background-color: $fg-red; }
+.theme-bg-yellow { background-color: $fg-yellow; }
+.theme-bg-orange { background-color: $fg-orange; }
+.theme-bg-cyan { background-color: $fg-cyan; }
+.theme-bg-violet { background-color: $fg-violet; }
+.theme-bg-magenta { background-color: $fg-magenta; }
+
+.theme-border-base { border-color: $fg-base; }
+.theme-border-highlight { border-color: $fg-highlight; }
+.theme-border-green { border-color: $fg-green; }
+.theme-border-blue { border-color: $fg-blue; }
+.theme-border-red { border-color: $fg-red; }
+.theme-border-yellow { border-color: $fg-yellow; }
+.theme-border-orange { border-color: $fg-orange; }
+.theme-border-cyan { border-color: $fg-cyan; }
+.theme-border-violet { border-color: $fg-violet; }
+.theme-border-magenta { border-color: $fg-magenta; }

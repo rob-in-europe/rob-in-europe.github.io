@@ -1,6 +1,8 @@
 ---
-layout: posts_by_category
+layout: recent_posts
 navid: Home
+blurb: home
+asides:
+- links_cat
+- home
 ---
-{% include links_cat %}
-{% include blurb_home %}

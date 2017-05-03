@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -14,22 +12,13 @@
   {{ site.title }}
 {% endif %}
 {% endcapture %}
-{% capture css_theme %}{% if page.css_theme %}{{ page.css_theme }}{% else %}{{ site.css_theme }}{% endif %}{% endcapture %}
     <title>{{ title }}</title>
     <link rel="shortcut icon" type="image/png"
           href="{{ site.baseurl }}/favicon.png" />
     <link rel="stylesheet" type="text/css"
 href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Raleway" />
     <link rel="stylesheet" type="text/css"
-          href="{{ site.baseurl }}{{ site.url_css }}/common.css" />
-    <link rel="stylesheet" type="text/css" media="(min-width: 60em)"
-          href="{{ site.baseurl }}{{ site.url_css }}/screen_large.css" />
-    <link rel="stylesheet" type="text/css" media="not all and (min-width: 60em)"
-          href="{{ site.baseurl }}{{ site.url_css }}/screen_small.css" />
-    <link rel="stylesheet" type="text/css" media="not print, (monochrome)"
-          href="{{ site.baseurl }}{{ site.url_css }}/{{ css_theme }}.css" />
-    <link rel="stylesheet" type="text/css" media="print, (monochrome)"
-          href="{{ site.baseurl }}{{ site.url_css }}/print.css" />
+          href="{{ site.baseurl }}{{ site.url_css }}/style.css" />
     {% if page.extra_css %}{% for css in page.extra_css %}
     <link href="{{ site.baseurl }}{{ site.url_css }}/{{ css }}"
           rel="stylesheet"/>
@@ -61,45 +50,68 @@ href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Raleway" />
   </head>
 <body>
 
-  <div id="content">
-    {% unless page.hide contains "navbar" %}
-    <ul class="navbar">
-      {% capture page_cat %}{{ page.category | downcase }}{% endcapture %}
-      {% capture page_nav %}{{ page.navid | downcase }}{% endcapture %}
-      {% for link_hash in site.navlinks %}
-        {% for link in link_hash %}
-        {% capture link_cat %}{{ link[0] | downcase }}{% endcapture %}
-        {% if page_nav == link_cat or page_cat == link_cat %}
-        <li class="navloc"><a href="{{ site.baseurl }}{{ link[1] }}">{{ link[0] }}</a></li>
-        {% break %}
-        {% else %}
-        <li><a href="{{ site.baseurl }}{{ link[1] }}">{{ link[0] }}</a></li>
-        {% endif %}
-        {% endfor %}
-      {% endfor %}
-    </ul>
-    {% endunless %}
+{% unless page.hide contains "navbar" %}
+<header class="site">
+<nav>
+  <ul>
+    {% capture page_nav %}{{ page.navid | downcase }}{% endcapture %}
+    {% for link_hash in site.navlinks %}
+    {% for link in link_hash %}
+    {% capture link_cat %}{{ link[0] | downcase }}{% endcapture %}
+    {% if page_nav == link_cat %}
+    <li><a class="active"
+           title="{{ link[0] }}"
+           href="{{ site.baseurl }}{{ link[1].url }}">
+        <img alt="{{ link[0] }}"
+             src="{{ site.baseurl }}{{ site.url_img }}/{{ link[1].img }}">
+    </a></li>
+    {% break %}
+    {% else %}
+    <li><a title="{{ link[0] }}"
+           href="{{ site.baseurl }}{{ link[1].url }}">
+        <img alt="{{ link[0] }}"
+             src="{{ site.baseurl }}{{ site.url_img }}/{{ link[1].img }}">
+    </a></li>
+    {% endif %}
+    {% endfor %}
+    {% endfor %}
+  </ul>
+</nav>
+</header>
+{% endunless %}
 
-    {% unless page.hide contains "title" %}
-    <div>
-      <h1>{{ title }}</h1>
-    </div>
-    {% endunless %}
+<section>
+{% unless page.hide contains "title" or page.is_post %}
+<header>
+  <h1>{{ title | strip }}</h1>
+</header>
+{% endunless %}
+{% if page.asides %}
+{% for aside in page.asides %}
+{% include aside_{{ aside }} %}
+{% endfor %}
+{% endif %}
+{% if page.blurb %}
+<header>
+  <div class="blurb">{% include blurb_{{ page.blurb }} %}</div>
+</header>
+{% endif %}
 
-    {{ content }}
+{{ content }}
+</section>
 
-    {% unless page.hide contains "footer" %}
-    <p class="footer">
-      {% if site.css_theme_url and site.css_theme_name %}
-      <a href="{{ site.css_theme_url }}">{{ site.css_theme_name }}</a>
-      /{% endif %}
-      <a href="http://validator.w3.org/check/referer">xhtml</a>
-      /
-      <a href="http://jigsaw.w3.org/css-validator/check/referer">css3</a>
-    </p>
-    {% endunless %}
-
-  </div>
+{% unless page.hide contains "footer" %}
+<footer class="site">
+  <a href="http://www.ardischeng.com/">icons by ardis</a>
+  /
+  {% if site.css_theme_url and site.css_theme_name %}
+  <a href="{{ site.css_theme_url }}">{{ site.css_theme_name }}</a>
+  /{% endif %}
+  <a href="http://validator.w3.org/check/referer">html</a>
+  /
+  <a href="http://jigsaw.w3.org/css-validator/check/referer">css</a>
+</footer>
+{% endunless %}
 
 </body>
 </html>

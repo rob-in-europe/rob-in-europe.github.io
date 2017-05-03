@@ -1,0 +1,84 @@
+/*****************************************************************************
+  Plots (running, models, etc)
+*****************************************************************************/
+
+.plots { margin-bottom: 2em; }
+.plots .plot { display: block; margin-left: auto; margin-right: auto;
+               margin-top: 2em; }
+.plots .caption { text-align: center; }
+
+.plot svg { font-size: 0.875em; }
+.plot line, .plot .axis, .plot .xTicks, .plot .yTicks { stroke: $fg-highlight; }
+.plot line.grid { stroke-width: 0.1; }
+.plot text { fill: $fg-highlight; }
+.plot .axis { stroke-width: 0.8; }
+.plot .xTicks, .plot .yTicks { stroke-width: 0.6; }
+.plot path {
+    stroke: $fg-blue;
+    stroke-width: 2;
+    fill: none;
+}
+/* Note: the following rules are for renal function plots. */
+.plot path.model {
+    stroke: $fg-green;
+    stroke-width: 3;
+    fill: none;
+}
+.plot path.hull {
+    stroke: none;
+    fill: $fg-blue;
+    opacity: 0.2;
+    pointer-events: none;
+}
+.plot rect.model { fill: $fg-green; }
+.plot rect.exp { fill: $fg-blue; }
+.plot path#highlight {
+    stroke: $fg-red;
+    stroke-width: 5;
+}
+
+/*****************************************************************************
+  Plot legends, shown as fixed sidebars.
+*****************************************************************************/
+
+#plot-legend  {
+    position: fixed;
+    top: 4em;
+    left: 0em;
+    width: auto;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border-top-left-radius: 0em;
+    border-bottom-left-radius: 0em;
+    background: $bg-highlight;
+    border: 5px solid $fg-base;
+    border-left: 0;
+}
+#plot-legend caption {
+    margin-bottom: 1em;
+}
+#plot-legend table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 1em 1em;
+    line-height: 1.5em;
+}
+#plot-legend th, #plot-legend td {
+    padding: 0.1em 0.25em;
+    padding-right: 1em;
+}
+#plot-legend th, #plot-legend .toggle {
+    text-align: center;
+}
+#plot-legend .odd {
+    background: inherit;
+}
+#plot-legend .even {
+    background: $bg-base;
+}
+#plot-legend .showyes * {
+    color: $fg-green;
+}
+#plot-legend .showno * {
+    color: $fg-red;
+}

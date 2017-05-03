@@ -1,7 +1,6 @@
 ---
 layout: posts_by_tag
-navid: Home
+asides:
+- links_tag
+- home
 ---
-{% include links_tag %}
-{% include blurb_home %}
-<h1>Posts by tag</h1>

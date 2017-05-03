@@ -1,0 +1,25 @@
+/*****************************************************************************
+  Reset
+
+  Loosely based on:
+  * http://html5doctor.com/html-5-reset-stylesheet/
+  * http://meyerweb.com/eric/tools/css/reset/
+  * https://github.com/necolas/normalize.css/
+*****************************************************************************/
+
+/* TODO -- consider all of the other elements in basic layout: pre, others? */
+html, body, header, footer, nav, div, section, article, aside, hgroup, img,
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl, li {
+    margin: 0; padding: 0; border: 0; outline: 0;
+    vertical-align: baseline; background: transparent; }
+
+section, article, aside, footer, header, nav, hgroup {
+  display: block;
+}
+footer { clear: both; }
+h1, h2, h3, h4, h5, h6, ul, ol {
+    margin-top: 0.5em; margin-bottom: 0.5em; }
+p { margin-top: 1em; margin-bottom: 1em; }
+ul li { margin: 0; padding: 0.25em 1.25em; }
+ol li { margin: 0; padding: 0.5em 0em; }
+body { font-size: 100%; line-height: 1.5em; }

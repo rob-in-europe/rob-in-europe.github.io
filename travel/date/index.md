@@ -1,8 +1,6 @@
 ---
 layout: posts_by_date
-category: travel
-navid: Travel
+asides:
+- links_date
+- travel
 ---
-{% include links_date %}
-{% include blurb_travel %}
-<h1>Posts by date</h1>
