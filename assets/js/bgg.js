@@ -108,16 +108,9 @@ BGG.init = function(args) {
             if (options.url.indexOf('cors-anywhere.herokuapp.com') != -1) {
                 return;
             }
-            var http = '';
-            if (window.location.protocol === 'http:') {
-                http = 'http:'
-            } else {
-                // Default to HTTPS.
-                http = 'https:'
-            }
-            options.url = http + '//cors-anywhere.herokuapp.com/' + options.url;
+            options.url = 'https://cors-anywhere.herokuapp.com/' + options.url;
             options.origin = 'X-Requested-With';
-            console.log('Using cors-anywhere via ' + http);
+            console.log('Using cors-anywhere via ' + options.url);
         } else if (options.crossDomain) {
             console.log('Cannot use cors-anywhere');
             console.log(options);
