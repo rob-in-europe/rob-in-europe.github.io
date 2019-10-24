@@ -10,8 +10,8 @@ comments:
     "Halloween pumpkins" have appeared in our local supermarket, as has a
     "Mini Jack" variety the size of a navel orange.
     Apparently this
-    <a href="http://www.ruralweekly.com.au/news/trend-gives-boost/2427735/">
-    isn't</a> the first time.
+    <a href="https://web.archive.org/web/20191024045231/https://www.thechronicle.com.au/news/trend-gives-boost/2427735/">
+    isn't the first time</a>.
 ---
 
 The [OED](http://www.oxforddictionaries.com/definition/english/pie) defines
