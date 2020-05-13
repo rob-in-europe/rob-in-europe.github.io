@@ -12,7 +12,7 @@ Calgary.
 We only paid it a cursory visit, long enough to enjoy a relaxed lunch in *la
 cité francophone*, but not sufficient for the French-speaking part of my brain
 to get out of first gear.
-However, last week we said goodbye to French colleague who is returning to
+However, last week we said goodbye to a French colleague who is returning to
 France to take up a permanent position, and despite some stumbles I was able
 to hold most of a conversation in French.
 So I just need some time to get back in the groove.
