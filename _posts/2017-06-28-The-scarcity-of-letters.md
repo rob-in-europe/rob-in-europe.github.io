@@ -18,7 +18,7 @@ world.
 
 Letters convey a level of intimacy by sheer virtue of their *existence*, let
 alone their contents.
-They inspire a desire, an onus, to response likewise.
+They inspire a desire, an onus, to respond likewise.
 They renew calluses I thought I'd never see again after my school days.
 Rummaging through old letters is a warm and fuzzy experience, one which no
 amount of searching old emails can begin to approach.
