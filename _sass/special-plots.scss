@@ -8,32 +8,32 @@
 .plots .caption { text-align: center; }
 
 .plot svg { font-size: 0.875em; }
-.plot line, .plot .axis, .plot .xTicks, .plot .yTicks { stroke: $fg-highlight; }
+.plot line, .plot .axis, .plot .xTicks, .plot .yTicks { stroke: var(--fg-highlight); }
 .plot line.grid { stroke-width: 0.1; }
-.plot text { fill: $fg-highlight; }
+.plot text { fill: var(--fg-highlight); }
 .plot .axis { stroke-width: 0.8; }
 .plot .xTicks, .plot .yTicks { stroke-width: 0.6; }
 .plot path {
-    stroke: $fg-blue;
+    stroke: var(--fg-blue);
     stroke-width: 2;
     fill: none;
 }
 /* Note: the following rules are for renal function plots. */
 .plot path.model {
-    stroke: $fg-green;
+    stroke: var(--fg-green);
     stroke-width: 3;
     fill: none;
 }
 .plot path.hull {
     stroke: none;
-    fill: $fg-blue;
+    fill: var(--fg-blue);
     opacity: 0.2;
     pointer-events: none;
 }
-.plot rect.model { fill: $fg-green; }
-.plot rect.exp { fill: $fg-blue; }
+.plot rect.model { fill: var(--fg-green); }
+.plot rect.exp { fill: var(--fg-blue); }
 .plot path#highlight {
-    stroke: $fg-red;
+    stroke: var(--fg-red);
     stroke-width: 5;
 }
 
@@ -50,8 +50,8 @@
     border-radius: 0.5em;
     border-top-left-radius: 0em;
     border-bottom-left-radius: 0em;
-    background: $bg-highlight;
-    border: 5px solid $fg-base;
+    background: var(--bg-highlight);
+    border: 5px solid var(--fg-base);
     border-left: 0;
 }
 #plot-legend caption {
@@ -74,11 +74,11 @@
     background: inherit;
 }
 #plot-legend .even {
-    background: $bg-base;
+    background: var(--bg-base);
 }
 #plot-legend .showyes * {
-    color: $fg-green;
+    color: var(--fg-green);
 }
 #plot-legend .showno * {
-    color: $fg-red;
+    color: var(--fg-red);
 }

@@ -31,7 +31,7 @@ body {
     text-align: left;
     font-size: 100%; line-height: 1.5em;
     max-width: 60em; margin: auto;
-    background-color: $bg-base; color: $fg-base;
+    background-color: var(--bg-base); color: var(--fg-base);
 }
 
 /* Allow structural content blocks to span both side-columns.
@@ -52,10 +52,10 @@ h2 { font-size: 130%; }
 h3 { font-size: 110%; }
 
 p { text-align: justify; }
-em { color: $fg-green; }
-a { color: $fg-blue; }
-a.more { color: $fg-magenta; }
-footer { text-align: center; border-color: $bg-highlight; }
+em { color: var(--fg-green); }
+a { color: var(--fg-blue); }
+a.more { color: var(--fg-magenta); }
+footer { text-align: center; border-color: var(--bg-highlight); }
 
 /* Basic list appearance. */
 ul { list-style: none; text-align: justify; }
@@ -73,14 +73,14 @@ ol li { list-style-position: inside; }
     line-height: 1.25em;
     padding: 0.5em 0.75em; border-radius: 1em;
     position: absolute;
-    background-color: $bg-highlight;
+    background-color: var(--bg-highlight);
     max-width: 30em;
 }
 
 /* Horizontal rule separators. */
 .separator {
     height: 0.5em; padding: 0em; margin: 0.5em 0em; border-style: none;
-    background-color: $bg-highlight;
+    background-color: var(--bg-highlight);
 }
 
 /* Hide elements that will be revealed by scripts. */
@@ -100,7 +100,7 @@ ol li { list-style-position: inside; }
     vertical-align: middle;
     /* Note: the vertical padding and hover borders are related */
     margin: 0.5em; padding: 0.5em 0.5em 0.25em 0.5em;
-    border-color: $fg-cyan;
+    border-color: var(--fg-cyan);
 }
 .site nav a.active {
     border-top-style: solid;
@@ -124,8 +124,8 @@ footer.site {
 *****************************************************************************/
 
 .blurb { padding: 0.75em; margin-bottom: 1em;
-         background-color: $bg-highlight; }
-.blurb .separator { background-color: $bg-base; }
+         background-color: var(--bg-highlight); }
+.blurb .separator { background-color: var(--bg-base); }
 .blurb p { display: inline-block; margin: 0.5em 0; padding: 0; }
 
 .blurb, blurb * { font-size: 90%; line-height: 1.25em; }
@@ -154,9 +154,9 @@ aside img, .post .body aside p img {
 aside .name, aside .item { font-family: "Raleway", "DejaVu Sans",
                            "Droid Sans", "Calibri", "Verdana", sans-serif; }
 aside .name { line-height: 1.25em; margin-bottom: 0.25em;
-              color: $fg-cyan; border-bottom: 2px solid $fg-cyan;}
+              color: var(--fg-cyan); border-bottom: 2px solid var(--fg-cyan);}
 aside .item { line-height: 1.5em; font-size: 0.75em; font-weight: bold; }
-aside a  { color: $fg-magenta; }
+aside a  { color: var(--fg-magenta); }
 
 /*****************************************************************************
   Blog post listings (nav.posts, .post.in-listing)
@@ -165,14 +165,14 @@ aside a  { color: $fg-magenta; }
 nav.posts h2 {
     border-top-width: 2px;
     border-style: solid;
-    border-color: $bg-highlight;
+    border-color: var(--bg-highlight);
     padding-top: 1em;
     margin-top: 2em;
     margin-bottom: 1rem;
     font-size: 1.2em;
 }
 /* Highlight the target tag ... */
-nav.posts h2:target { color: $fg-magenta; }
+nav.posts h2:target { color: var(--fg-magenta); }
 
 .post.in-listing {
     margin-top: 2.5em;
@@ -183,7 +183,7 @@ nav.posts h2:target { color: $fg-magenta; }
     margin-top: 2.5em;
     border-top-width: 2px;
     border-top-style: solid;
-    border-color: $bg-highlight;
+    border-color: var(--bg-highlight);
 }
 
 .post.in-listing footer {
@@ -200,7 +200,7 @@ nav.posts h2:target { color: $fg-magenta; }
 .post .category img {
     display: inline-block; vertical-align: sub; height: 1.25em;
 }
-.post .tag a { color: $fg-violet; }
+.post .tag a { color: var(--fg-violet); }
 .post .body img { max-width: 100%; }
 .post .body p img {
     clear: none;
@@ -211,12 +211,12 @@ nav.posts h2:target { color: $fg-magenta; }
 .post .comment { max-width: 80%; margin-left: auto; margin-right: auto;
                  font-size: 90%; line-height: 1.25em; }
 .post .comment .author { padding-right: 1em; font-weight: bold; }
-.post .comment .author, .post .comment .date { color: $fg-green; }
+.post .comment .author, .post .comment .date { color: var(--fg-green); }
 
 /* Highlight the target comment ... */
 .post .comment:target {
     border-radius: 1em;
-    background-color: $bg-highlight;
+    background-color: var(--bg-highlight);
 }
 
 .post footer { clear: both; }
@@ -227,7 +227,7 @@ nav.posts h2:target { color: $fg-magenta; }
    Note: when using guillemets, the line-height has to be 0.25rem less than
    the height in order for the characters to appear vertically centred. */
 .post .prev, .post .next {
-    background-color: $bg-highlight;
+    background-color: var(--bg-highlight);
     width: 2.5rem; height: 2.5rem;
     text-align: center;
     vertical-align: middle;

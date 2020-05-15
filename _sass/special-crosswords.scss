@@ -81,12 +81,12 @@
     text-decoration-style: solid;
 }
 
-.crossword td { border-color: $fg-highlight; }
-.crossword .blank { background-color: $fg-highlight; }
-.crossword .num { color: $fg-highlight; }
-.crossword ~ dl dt { color: $fg-highlight; }
-.crossword ~ dl dd span[title^="Anagram"] { color: $fg-green; }
-.crossword ~ dl dd span[title^="Answer"] { color: $fg-red; }
-.crossword ~ dl dd span[title^="Definition"] { color: $fg-blue; }
-.crossword ~ dl dd span[title^="Modifier"] { color: $fg-orange; }
-.crossword ~ dl dd span[title^="Synonym"] { color: $fg-violet; }
+.crossword td { border-color: var(--fg-highlight); }
+.crossword .blank { background-color: var(--fg-highlight); }
+.crossword .num { color: var(--fg-highlight); }
+.crossword ~ dl dt { color: var(--fg-highlight); }
+.crossword ~ dl dd span[title^="Anagram"] { color: var(--fg-green); }
+.crossword ~ dl dd span[title^="Answer"] { color: var(--fg-red); }
+.crossword ~ dl dd span[title^="Definition"] { color: var(--fg-blue); }
+.crossword ~ dl dd span[title^="Modifier"] { color: var(--fg-orange); }
+.crossword ~ dl dd span[title^="Synonym"] { color: var(--fg-violet); }

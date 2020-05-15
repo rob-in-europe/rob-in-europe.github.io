@@ -18,8 +18,8 @@
     background-image: url("/assets/images/kidney.png");
 }
 .publication-list .journal {
-    color: $fg-green;
+    color: var(--fg-green);
 }
 .publication-list .author {
-    color: $fg-yellow;
+    color: var(--fg-yellow);
 }
