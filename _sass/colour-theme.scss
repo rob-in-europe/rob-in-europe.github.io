@@ -1,34 +1,39 @@
 /*****************************************************************************
-  Solarized colour palette (http://ethanschoonover.com/solarized)
+  Tomorrow colour palette
+  https://github.com/purcell/color-theme-sanityinc-tomorrow
 *****************************************************************************/
 
-$fg-base: #657b83;
-$fg-highlight: #586e75;
-$fg-comment: #93a1a1;
-$fg-green: #859900;
-$fg-blue: #268bd2;
-$fg-red: #dc322f;
-$fg-yellow: #b58900;
-$fg-orange: #cb4b16;
-$fg-cyan: #2aa198;
-$fg-violet: #6c71c4;
-$fg-magenta: #d33682;
-$bg-base: #fdf6e3;
-$bg-highlight: #eee8d5;
+$fg-base: #4d4d4c ;
+// NOTE: this is a custom colour, halfway between $fg-base and pure black.
+$fg-highlight: #2e2e2e;
+$fg-comment: #8e908c;
+$fg-green: #718c00;
+$fg-blue: #4271ae;
+$fg-red: #c82829;
+$fg-yellow: #eab700;
+$fg-orange: #f5871f;
+$fg-cyan: #3e999f;
+$fg-violet: #8959a8;
+// NOTE: there is no magenta in the Tomorrow palette, reuse violet instead.
+$fg-magenta: #8959a8;
+$bg-base: #ffffff;
+$bg-highlight: #efefef;
 
-$dark-fg-base: #839496;
-$dark-fg-highlight: #93a1a1;
-$dark-fg-comment: #586e75;
-$dark-fg-green: #859900;
-$dark-fg-blue: #268bd2;
-$dark-fg-red: #dc322f;
-$dark-fg-yellow: #b58900;
-$dark-fg-orange: #cb4b16;
-$dark-fg-cyan: #2aa198;
-$dark-fg-violet: #6c71c4;
-$dark-fg-magenta: #d33682;
-$dark-bg-base: #002b36;
-$dark-bg-highlight: #073642;
+$dark-fg-base: #c5c8c6;
+// NOTE: this is the foreground colour from the Tomorrow Bright palette.
+$dark-fg-highlight: #eaeaea;
+$dark-fg-comment: #969896;
+$dark-fg-green: #b5bd68;
+$dark-fg-blue: #81a2be;
+$dark-fg-red: #cc6666;
+$dark-fg-yellow: #f0c674;
+$dark-fg-orange: #de935f;
+$dark-fg-cyan: #8abeb7;
+$dark-fg-violet: #b294bb;
+// NOTE: there is no magenta in the Tomorrow palette, reuse violet instead.
+$dark-fg-magenta: #b294bb;
+$dark-bg-base: #1d1f21;
+$dark-bg-highlight: #282a2e;
 
 /*****************************************************************************
   Apply the light or dark theme, according to the user's preference.
