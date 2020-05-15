@@ -4,6 +4,7 @@
 
 $fg-base: #657b83;
 $fg-highlight: #586e75;
+$fg-comment: #93a1a1;
 $fg-green: #859900;
 $fg-blue: #268bd2;
 $fg-red: #dc322f;
@@ -17,6 +18,7 @@ $bg-highlight: #eee8d5;
 
 $dark-fg-base: #839496;
 $dark-fg-highlight: #93a1a1;
+$dark-fg-comment: #586e75;
 $dark-fg-green: #859900;
 $dark-fg-blue: #268bd2;
 $dark-fg-red: #dc322f;
@@ -36,6 +38,7 @@ $dark-bg-highlight: #073642;
     @media (prefers-color-scheme: dark) {
         --fg-base: #{$dark-fg-base};
         --fg-highlight: #{$dark-fg-highlight};
+        --fg-comment: #{$dark-fg-comment};
         --bg-base: #{$dark-bg-base};
         --bg-highlight: #{$dark-bg-highlight};
         --fg-green: #{$dark-fg-green};
@@ -50,6 +53,7 @@ $dark-bg-highlight: #073642;
     @media not all and (prefers-color-scheme: dark) {
         --fg-base: #{$fg-base};
         --fg-highlight: #{$fg-highlight};
+        --fg-comment: #{$fg-comment};
         --bg-base: #{$bg-base};
         --bg-highlight: #{$bg-highlight};
         --fg-green: #{$fg-green};
