@@ -4,7 +4,7 @@ title: Copenhagen
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Copenhagen: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Copenhagen?authkey=Gv1sRgCNCiyqHI_uPx1AE'
+    Copenhagen: 'https://photos.app.goo.gl/wJooBytdHBCqAsgv9'
 ---
 
 I could only stay for two nights in Copenhagen, as every place was booked out

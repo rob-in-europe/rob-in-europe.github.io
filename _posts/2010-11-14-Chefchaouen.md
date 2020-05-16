@@ -4,7 +4,7 @@ title: Chefchaouen
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Chefchaouen: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Chefchaouen?authkey=Gv1sRgCNTEqoiy18GiAg'
+    Chefchaouen: 'https://photos.app.goo.gl/DAeTwjfttyV5gnKn6'
 comments:
 - author: Paul Fraser
   date: November 15, 2010

@@ -4,7 +4,7 @@ title: Leaving Edinburgh for Padua
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Edinburgh: 'http://picasaweb.google.com/117685806402772845675/Europe200809Edinburgh?authkey=Gv1sRgCJ-E6M6SwKPtlAE'
+    Edinburgh: 'https://photos.app.goo.gl/xKmrCvv5BypRV9217'
 ---
 
 It's been a great week in Edinburgh.

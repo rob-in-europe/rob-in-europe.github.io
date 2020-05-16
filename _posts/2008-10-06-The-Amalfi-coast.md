@@ -4,7 +4,7 @@ title: The Amalfi coast
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Amalfi Coast: 'http://picasaweb.google.com/117685806402772845675/Europe200809PaestumAndTheAmalfiCoast?authkey=Gv1sRgCNbD87LR5uSazgE'
+    Amalfi Coast: 'https://photos.app.goo.gl/D88YdiTBXaMK2NZR8'
 ---
 
 Hello everyone!

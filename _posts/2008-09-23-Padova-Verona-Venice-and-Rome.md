@@ -4,8 +4,8 @@ title: Padova, Verona, Venice and Rome
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Northern Italy: 'http://picasaweb.google.com/117685806402772845675/Europe200809NorthernItaly?authkey=Gv1sRgCJXn8o3YlpjBKw'
-    Rome: 'http://picasaweb.google.com/117685806402772845675/Europe200809Rome?authkey=Gv1sRgCKXUu8eJmrvmhAE'
+    Northern Italy: 'https://photos.app.goo.gl/dUpNikYqVMeADMrv5'
+    Rome: 'https://photos.app.goo.gl/RWTxwoRdGckmojWy9'
 ---
 
 Hello everyone!

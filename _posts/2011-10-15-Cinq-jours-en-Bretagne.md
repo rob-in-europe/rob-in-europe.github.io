@@ -4,7 +4,7 @@ title: Cinq jours en Bretagne
 tags: ['Paris']
 category: travel
 galleries:
-    Brittany: 'https://picasaweb.google.com/117685806402772845675/Brittany092011?authkey=Gv1sRgCLH4hrGQod7xNQ'
+    Brittany: 'https://photos.app.goo.gl/PmFu7Wt88gYFChiB6'
 comments:
 - author: Paul Fraser
   date: September 30, 2013

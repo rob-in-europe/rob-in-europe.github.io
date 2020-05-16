@@ -4,8 +4,8 @@ title: Rome, Sicily and the Amalfi Coast
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Sicily: 'http://picasaweb.google.com/117685806402772845675/Europe200809Sicily?authkey=Gv1sRgCPfB7Yivmpin2AE'
-    Amalfi Coast: 'http://picasaweb.google.com/117685806402772845675/Europe200809PaestumAndTheAmalfiCoast?authkey=Gv1sRgCNbD87LR5uSazgE'
+    Sicily: 'https://photos.app.goo.gl/hMVpDLotDDEtj5fA6'
+    Amalfi Coast: 'https://photos.app.goo.gl/D88YdiTBXaMK2NZR8'
 ---
 
 This is a long post, as it's been a while since the last one. Sincere

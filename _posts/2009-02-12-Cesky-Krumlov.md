@@ -4,7 +4,7 @@ title: Český Krumlov
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Český Krumlov: 'http://picasaweb.google.com/117685806402772845675/Europe20082009CeskyKrumlov?authkey=Gv1sRgCMbOvu-Ugqz3Ag'
+    Český Krumlov: 'https://photos.app.goo.gl/hkSKLSUa4R4nd6b5A'
 ---
 
 Maybe the simplest way to describe my stay in Český Krumlov is just to mention

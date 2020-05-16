@@ -4,9 +4,9 @@ title: Helsinki and Stockholm
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Helsinki: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Helsinki?authkey=Gv1sRgCIPpwoyb7rK-Iw'
-    Stockholm: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Stockholm?authkey=Gv1sRgCMnP3oXMutmj-AE'
-    Crazy Swedish book: 'http://picasaweb.google.com/117685806402772845675/Europe20082009CrazySwedishBook?authkey=Gv1sRgCLOg7LmL_JSpIQ'
+    Helsinki: 'https://photos.app.goo.gl/TZQaPF5WTJs8J6FQ6'
+    Stockholm: 'https://photos.app.goo.gl/gXsypjzDJ9uCeFiX6'
+    Crazy Swedish book: 'https://photos.app.goo.gl/p1AiwGB7mgTT8vr46'
 comments:
 - author: Tatianna
   date: November 22, 2008

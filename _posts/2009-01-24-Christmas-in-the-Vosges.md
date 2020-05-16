@@ -4,7 +4,7 @@ title: Christmas in the Vosges
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Christmas in the Vosges: 'http://picasaweb.google.com/117685806402772845675/Europe20082009NancyAndTheVosges?authkey=Gv1sRgCMf1mZKh3NPPzwE'
+    Christmas in the Vosges: 'https://photos.app.goo.gl/Foe5kAyeKnyJ1Srs9'
 comments:
 - author: Paul Fraser
   date: January 25, 2009

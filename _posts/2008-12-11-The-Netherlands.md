@@ -3,11 +3,11 @@ layout: post
 title: The Netherlands
 category: travel
 tags: ['Europe 08/09']
-galleries: 
-    Utrecht: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Utrecht?authkey=Gv1sRgCOiY28bn9IGB0AE'
-    Amsterdam: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Amsterdam?authkey=Gv1sRgCO7NnNKFh_Tp9QE'
-    Den Haag: 'http://picasaweb.google.com/117685806402772845675/Europe20082009DenHaag?authkey=Gv1sRgCLX3zd_rkZTq0AE'
-    Texel: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Texel?authkey=Gv1sRgCPuRkN-orI-ubg'
+galleries:
+    Utrecht: 'https://photos.app.goo.gl/YmGH84d9VbkvtxK56'
+    Amsterdam: 'https://photos.app.goo.gl/sSMwtZ1hr9YavVe47'
+    Den Haag: 'https://photos.app.goo.gl/oWeDGcerF7MoFtUF8'
+    Texel: 'https://photos.app.goo.gl/BUZNz4xd7Vy7rN4M7'
 ---
 
 When I arrived in the Netherlands, I did not only leave behind the

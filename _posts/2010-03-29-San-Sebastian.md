@@ -4,7 +4,7 @@ title: San Sebastian
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    San Sebastian: 'http://picasaweb.google.com/117685806402772845675/Europe20082009SanSebastian?authkey=Gv1sRgCPahq7HQpMfNTg'
+    San Sebastian: 'https://photos.app.goo.gl/i56tDUoc5NqUCsK3A'
 comments:
 - author: Paul Fraser
   date: May 25, 2010

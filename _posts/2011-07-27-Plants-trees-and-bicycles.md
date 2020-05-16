@@ -18,7 +18,7 @@ comments:
 ---
 
 [![]({{ site.baseurl }}{{ site.url_img }}/2011-07-27_img1.jpg)](
-http://2.bp.blogspot.com/-WGeN6l9zh7w/TjBVw1gvA6I/AAAAAAAACs4/cRT7eZk8WNA/s1600/IMG_5090.jpg)
+https://photos.app.goo.gl/FmUkMfQKVRmGjCjs7)
 Summer in Paris has been ... interesting.
 The city empties itself of Parisians and replaces them with tourists, both
 French and foreign.
@@ -35,7 +35,7 @@ become a rude Parisian (a particular strain of the French I am yet to
 encounter), but I can empathise.
 
 [![]({{ site.baseurl }}{{ site.url_img }}/2011-07-27_img2.jpg)](
-http://2.bp.blogspot.com/-ZnOxms7JScU/TjBVxDX7DFI/AAAAAAAACs8/ueZKBopoKW8/s1600/IMG_5094.jpg)
+https://photos.app.goo.gl/PN7UxeLDbNJLda788)
 
 Much like the cold, dark winter that brought snowfall to a particularly
 unsuitable city, and which inspired many Parisians to tell me that such a
@@ -53,7 +53,7 @@ And there's always something to see or do (although it often helps to be
 fluent in French).
 
 [![]({{ site.baseurl }}{{ site.url_img }}/2011-07-27_img3.jpg)](
-http://3.bp.blogspot.com/-Ax0Fhl8kVZM/TjBVyC6AOTI/AAAAAAAACtA/p9sgy8q6C4Y/s1600/IMG_5095.jpg)
+https://photos.app.goo.gl/zRY6QCgxZhAYkqFv8)
 
 One of the spectacles I haven't taken advantage of yet is the "Paris Plages"
 (Paris beach), where thousands of tonnes of sand have been shipped in by barge
@@ -73,7 +73,7 @@ Thankfully, we were finally treated to eight laps of hectic, densely packed
 cyclical madness.
 
 [![]({{ site.baseurl }}{{ site.url_img }}/2011-07-27_img4.jpg)](
-http://3.bp.blogspot.com/-G0NJaPYWR1M/TjBVy_EhRPI/AAAAAAAACtE/f5Lv8hlMBmA/s1600/IMG_5223.jpg)
+https://photos.app.goo.gl/Bxb7JTBby2JXGcHQ7)
 
 Even the support vehicles got in on the act, tooting their horns and waving
 (especially the medical staff lounging in the back of an open-top sports car).

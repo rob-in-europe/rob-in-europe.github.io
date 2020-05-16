@@ -4,7 +4,7 @@ title: Arrival in Edinburgh
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Edinburgh: 'http://picasaweb.google.com/117685806402772845675/Europe200809Edinburgh?authkey=Gv1sRgCJ-E6M6SwKPtlAE'
+    Edinburgh: 'https://photos.app.goo.gl/xKmrCvv5BypRV9217'
 ---
 
 I've been in Edinburgh for about 24 hours now, and have found it to be a
@@ -20,5 +20,4 @@ A free three-hour walking tour of the Old Town was fantastic, and I also
 managed to register at the AHM08 conference, after some brief confusion where
 the staff repeatedly asked me if I was sure I'd registered.
 Mishaps have been avoided thus far.
-I have posted
-[some photos](https://picasaweb.google.com/117685806402772845675/Brittany092011?authkey=Gv1sRgCLH4hrGQod7xNQ).
+I have posted [some photos](https://photos.app.goo.gl/xKmrCvv5BypRV9217).

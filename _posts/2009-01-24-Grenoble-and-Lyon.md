@@ -4,7 +4,7 @@ title: Grenoble and Lyon
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Grenoble and Lyon: 'http://picasaweb.google.com/117685806402772845675/Europe20082009GrenobleAndLyon?authkey=Gv1sRgCOv09c-Y54-TKQ'
+    Grenoble and Lyon: 'https://photos.app.goo.gl/ERtGs3jY9WiXypwo8'
 ---
 
 My visit to Grenoble proved to be very relaxing and invigorating.

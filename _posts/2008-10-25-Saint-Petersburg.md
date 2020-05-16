@@ -4,7 +4,7 @@ title: Saint Petersburg
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    St Petersburg: 'http://picasaweb.google.com/117685806402772845675/Europe20082009StPetersburg?authkey=Gv1sRgCKecn-fx7bS-BA'
+    St Petersburg: 'https://photos.app.goo.gl/HY7Erpk3EKu6AUpW6'
 ---
 
 Greetings from Saint Petersburg!

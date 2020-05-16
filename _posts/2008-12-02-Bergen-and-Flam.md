@@ -4,8 +4,8 @@ title: Bergen and Flåm
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Bergen: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Bergen?authkey=Gv1sRgCMHcsOj19vSd2wE'
-    Flåm: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Flam?authkey=Gv1sRgCMSt5ID29LigqwE'
+    Bergen: 'https://photos.app.goo.gl/iGvNsnBQN6VsMJBh9'
+    Flåm: 'https://photos.app.goo.gl/7rNUaL5vbBwjP4aA7'
 ---
 
 As I previously mentioned, Bergen is the rainiest city in Europe --- it

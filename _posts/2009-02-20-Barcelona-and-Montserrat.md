@@ -4,7 +4,7 @@ title: Barcelona and Montserrat
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Barcelona and Montserrat: 'http://picasaweb.google.com/117685806402772845675/Europe20082009BarcelonaAndMontserrat?authkey=Gv1sRgCPOGkcHF94CDdg'
+    Barcelona and Montserrat: 'https://photos.app.goo.gl/yb555h5vQo7R4cS96'
 ---
 
 Arriving in Barcelona after nightfall, I was overjoyed that it was warm enough

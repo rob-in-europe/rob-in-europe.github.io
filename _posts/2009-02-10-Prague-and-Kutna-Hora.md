@@ -4,7 +4,7 @@ title: Prague and Kutná Hora
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Prague and Kutná Hora: 'http://picasaweb.google.com/117685806402772845675/Europe20082009PragueAndKutnaHora?authkey=Gv1sRgCK3Q-_b_rcvV5AE'
+    Prague and Kutná Hora: 'https://photos.app.goo.gl/A3215qyNeheLPVoR7'
 ---
 
 The Czech Republic is probably most famous for two things: the city of Prague,

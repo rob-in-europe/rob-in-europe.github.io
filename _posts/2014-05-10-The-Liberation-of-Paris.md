@@ -4,7 +4,7 @@ title: The Liberation of Paris
 tags: ['Paris']
 category: travel
 galleries:
-    Wedding: 'https://picasaweb.google.com/117685806402772845675/Wedding082012?authkey=Gv1sRgCOjLuOfokomN1wE'
+    Wedding: 'https://photos.app.goo.gl/Bk79Mzf9rEvg6du7A'
 comments:
 - author: Paul Fraser
   date: April 24, 2015

@@ -4,8 +4,8 @@ title: Switzerland
 category: travel
 tags: ['Europe 08/09']
 galleries:
-    Laussane and Bern: 'http://picasaweb.google.com/117685806402772845675/Europe20082009LausanneAndBern?authkey=Gv1sRgCM-3lPerg_HbSw'
-    Lucerne: 'http://picasaweb.google.com/117685806402772845675/Europe20082009Lucerne?authkey=Gv1sRgCMKY-NTG84PXZg'
+    Laussane and Bern: 'https://photos.app.goo.gl/zpAz2K7smknWCpD38'
+    Lucerne: 'https://photos.app.goo.gl/5i1EH3wf448he72BA'
 ---
 
 Switzerland is widely regarded as a spectacularly beautiful country, where
